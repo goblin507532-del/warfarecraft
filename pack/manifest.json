@@ -1,0 +1,9 @@
+{
+  "name": "Warfare Maps & Kits",
+  "version": "",
+  "mcVersion": "1.21.1",
+  "loader": "NeoForge",
+  "serverAddress": "26.133.174.202:12345",
+  "notes": "Сборка ещё не опубликована.",
+  "files": []
+}
