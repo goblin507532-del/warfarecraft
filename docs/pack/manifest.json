@@ -1,0 +1,2531 @@
+{
+    "name":  "Warfare Maps and Kits",
+    "version":  "2026.10.02-2238",
+    "mcVersion":  "1.21.1",
+    "loader":  "NeoForge",
+    "loaderVersion":  "21.1.250",
+    "serverAddress":  "26.133.174.202:12345",
+    "notes":  "Сборка раздаётся с моего ПК. Пока сервер включён — лаунчер сам догонит последнюю версию.",
+    "files":  [
+                  {
+                      "path":  "mods/ammocrate-1.0.0.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6bbd4edb7d3a2af3f56a92a6e39e263348c4155c49d9a9ed62da92092de667b9.bin",
+                      "sha256":  "6bbd4edb7d3a2af3f56a92a6e39e263348c4155c49d9a9ed62da92092de667b9",
+                      "size":  29528
+                  },
+                  {
+                      "path":  "mods/architectury-13.0.11-neoforge.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb.bin",
+                      "sha256":  "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
+                      "size":  584734
+                  },
+                  {
+                      "path":  "mods/connector-2.0.0-beta.17+1.21.1-full.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ca70b57df3a7a4e8d211fea7ff3ae77e768482af374f26bf953ff5fd755564f0.bin",
+                      "sha256":  "ca70b57df3a7a4e8d211fea7ff3ae77e768482af374f26bf953ff5fd755564f0",
+                      "size":  4573244
+                  },
+                  {
+                      "path":  "mods/curios-neoforge-9.5.1+1.21.1.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde.bin",
+                      "sha256":  "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+                      "size":  410690
+                  },
+                  {
+                      "path":  "mods/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d6a7a963f794501678113e2545d8b25c90e123ef6b9256bb5716907d059e1ef5.bin",
+                      "sha256":  "d6a7a963f794501678113e2545d8b25c90e123ef6b9256bb5716907d059e1ef5",
+                      "size":  30207268
+                  },
+                  {
+                      "path":  "mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/78cb67c9faeff5d1cb4da48d41e48ecc47baddaaec0f792e6edc8207aee0ab8e.bin",
+                      "sha256":  "78cb67c9faeff5d1cb4da48d41e48ecc47baddaaec0f792e6edc8207aee0ab8e",
+                      "size":  220193
+                  },
+                  {
+                      "path":  "mods/Elite x Quality Guns Neoforge v5.1 - 1.21.1.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/0e924f513e06a20be4099cea983643aa91037493fe3e6445143f1504cdbbb50c.bin",
+                      "sha256":  "0e924f513e06a20be4099cea983643aa91037493fe3e6445143f1504cdbbb50c",
+                      "size":  60832083
+                  },
+                  {
+                      "path":  "mods/fancymenu_neoforge_3.9.12_MC_1.21.1.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/fd0f446c22bb42a0a3ac5cbdcb614abcba5a70f99e2a0cda6556a8efad2859a5.bin",
+                      "sha256":  "fd0f446c22bb42a0a3ac5cbdcb614abcba5a70f99e2a0cda6556a8efad2859a5",
+                      "size":  25912346
+                  },
+                  {
+                      "path":  "mods/ferritecore-7.0.3-neoforge.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8.bin",
+                      "sha256":  "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
+                      "size":  121559
+                  },
+                  {
+                      "path":  "mods/fieldrations-1.0.0.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/5bec887c0157fa617f8041be44810f47592003d869165601356764b666c49e92.bin",
+                      "sha256":  "5bec887c0157fa617f8041be44810f47592003d869165601356764b666c49e92",
+                      "size":  12787
+                  },
+                  {
+                      "path":  "mods/forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/96f8b489f401c64e87343daf57a030ccd1b58be40fc0aad701278ba58a0fadaf.bin",
+                      "sha256":  "96f8b489f401c64e87343daf57a030ccd1b58be40fc0aad701278ba58a0fadaf",
+                      "size":  5613159
+                  },
+                  {
+                      "path":  "mods/fracturepoint-1.21.1-3.0.0-PT2.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/5b2e991875e9aa72bf8e8ceaf615e414958837df3c850efe982c9c3677694cbb.bin",
+                      "sha256":  "5b2e991875e9aa72bf8e8ceaf615e414958837df3c850efe982c9c3677694cbb",
+                      "size":  2240442
+                  },
+                  {
+                      "path":  "mods/geckolib-neoforge-1.21.1-4.9.2.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/5e548466af9ab6aca7a91a7c7d4dc0dc8bc385e22958aed5da0e7bebd0fa3fba.bin",
+                      "sha256":  "5e548466af9ab6aca7a91a7c7d4dc0dc8bc385e22958aed5da0e7bebd0fa3fba",
+                      "size":  630584
+                  },
+                  {
+                      "path":  "mods/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314.bin",
+                      "sha256":  "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314",
+                      "size":  2540723
+                  },
+                  {
+                      "path":  "mods/konkrete_neoforge_1.9.9_MC_1.21.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/791c5538751dd3015ef3a2ce92d98719e1a28a48ebbd817b78506771256654cd.bin",
+                      "sha256":  "791c5538751dd3015ef3a2ce92d98719e1a28a48ebbd817b78506771256654cd",
+                      "size":  618842
+                  },
+                  {
+                      "path":  "mods/kotlinforforge-5.12.0-all.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/2785a4dd6de5c6c56065fd8eb789c82771bd2ee773c30794c23160a3b2c39139.bin",
+                      "sha256":  "2785a4dd6de5c6c56065fd8eb789c82771bd2ee773c30794c23160a3b2c39139",
+                      "size":  7279264
+                  },
+                  {
+                      "path":  "mods/lithium-neoforge-0.15.4+mc1.21.1.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757.bin",
+                      "sha256":  "488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757",
+                      "size":  774220
+                  },
+                  {
+                      "path":  "mods/MCSP-1.21.1-V1.0.10.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9e2146996cfcbdb7f8f4210d4abd93f3d76b2a45999905ed865e60c7648dd2dd.bin",
+                      "sha256":  "9e2146996cfcbdb7f8f4210d4abd93f3d76b2a45999905ed865e60c7648dd2dd",
+                      "size":  5780383
+                  },
+                  {
+                      "path":  "mods/melody_neoforge_1.0.10_MC_1.21.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6b973a4564703c531fc0eae09db08b07a38091e0a743c687b8d2049457e84871.bin",
+                      "sha256":  "6b973a4564703c531fc0eae09db08b07a38091e0a743c687b8d2049457e84871",
+                      "size":  36096
+                  },
+                  {
+                      "path":  "mods/offlineskins-1.21.1-v1a-neoforge.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e9927be7cba0bc7c7ce4705458e428491063026d18ecaa30f57513bd2b3d0052.bin",
+                      "sha256":  "e9927be7cba0bc7c7ce4705458e428491063026d18ecaa30f57513bd2b3d0052",
+                      "size":  99647
+                  },
+                  {
+                      "path":  "mods/ropeladder-1.0.0.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/90ee3998be6330916ecd7e95e607464bcff4ee7d31d34f9e026bb7c27c5eddff.bin",
+                      "sha256":  "90ee3998be6330916ecd7e95e607464bcff4ee7d31d34f9e026bb7c27c5eddff",
+                      "size":  25615
+                  },
+                  {
+                      "path":  "mods/sbw-Perimeter-ops-1.6.0.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/767a0d8544de6f5f95d536e40af994df48f229dec429eb20f8206bd519f54a05.bin",
+                      "sha256":  "767a0d8544de6f5f95d536e40af994df48f229dec429eb20f8206bd519f54a05",
+                      "size":  162555
+                  },
+                  {
+                      "path":  "mods/sbw_ew_addon-1.1.1+1.21.1.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3c499b25dafdee37cf1bfc9b7b5455342716511f8509a10f7b545f2e6b15f407.bin",
+                      "sha256":  "3c499b25dafdee37cf1bfc9b7b5455342716511f8509a10f7b545f2e6b15f407",
+                      "size":  1878565
+                  },
+                  {
+                      "path":  "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d.bin",
+                      "sha256":  "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d",
+                      "size":  1292934
+                  },
+                  {
+                      "path":  "mods/superbwarfare-0.8.9.1-final-mc1.21.1-5b92ebe1.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d6deeeac1f17c087b0561bd224aabc8c6d450d98cbb2a273306300a30c7e0ecf.bin",
+                      "sha256":  "d6deeeac1f17c087b0561bd224aabc8c6d450d98cbb2a273306300a30c7e0ecf",
+                      "size":  41662881
+                  },
+                  {
+                      "path":  "mods/superb_block_bundle_-1.6.0.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/67a81ab54ea8ab73f866f979f4cad06e6994b759ae647d3f8b181ff497054fd1.bin",
+                      "sha256":  "67a81ab54ea8ab73f866f979f4cad06e6994b759ae647d3f8b181ff497054fd1",
+                      "size":  543175
+                  },
+                  {
+                      "path":  "mods/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/58f6ab47c59218bdb10bb9eee1905b6cd27f3bc98d4af13982a6002a99b1d3e7.bin",
+                      "sha256":  "58f6ab47c59218bdb10bb9eee1905b6cd27f3bc98d4af13982a6002a99b1d3e7",
+                      "size":  57242132
+                  },
+                  {
+                      "path":  "mods/taczaddon-1.1.8-fix2-1.21.1-neoforge.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/96c4ef3744dd6285b945d3a08b9370abd72ec9767f921084b2cca2917dd71f63.bin",
+                      "sha256":  "96c4ef3744dd6285b945d3a08b9370abd72ec9767f921084b2cca2917dd71f63",
+                      "size":  166630
+                  },
+                  {
+                      "path":  "mods/voicechat-neoforge-1.21.1-2.6.23.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3a70dc640992efabae224708bce2521e6029607ddb7abcfdee499d5ea3d1d81c.bin",
+                      "sha256":  "3a70dc640992efabae224708bce2521e6029607ddb7abcfdee499d5ea3d1d81c",
+                      "size":  4921425
+                  },
+                  {
+                      "path":  "mods/warfaredecor-1.0.0.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/2939e9477c3f2774347e04e6d220643cea40c83d51a06f8d0bc5ac198b2c469f.bin",
+                      "sha256":  "2939e9477c3f2774347e04e6d220643cea40c83d51a06f8d0bc5ac198b2c469f",
+                      "size":  65349300
+                  },
+                  {
+                      "path":  "mods/warfaremapskits-1.8.1.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/cbf57be1ec7d5f28e5c62204618c7056a640c5ee5782f7ac631bbb49e89c4b07.bin",
+                      "sha256":  "cbf57be1ec7d5f28e5c62204618c7056a640c5ee5782f7ac631bbb49e89c4b07",
+                      "size":  1416902
+                  },
+                  {
+                      "path":  "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f.bin",
+                      "sha256":  "b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f",
+                      "size":  1118651
+                  },
+                  {
+                      "path":  "config/almanac-common.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/43303ea5835f439a1fc1e7eb771834cfce26450a2381ad192621e4ed5532ff29.bin",
+                      "sha256":  "43303ea5835f439a1fc1e7eb771834cfce26450a2381ad192621e4ed5532ff29",
+                      "size":  575
+                  },
+                  {
+                      "path":  "config/arenakits-server.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f7ab4b02b86a021dacd6a4210b6e4d5842b710fc8ce8c0655d2bfa34bdb23608.bin",
+                      "sha256":  "f7ab4b02b86a021dacd6a4210b6e4d5842b710fc8ce8c0655d2bfa34bdb23608",
+                      "size":  813
+                  },
+                  {
+                      "path":  "config/connector.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/67bee06b2b321ed25e0d4e9b5bac7ab76c8ae76442de6caf11f463ce2ae1ac5e.bin",
+                      "sha256":  "67bee06b2b321ed25e0d4e9b5bac7ab76c8ae76442de6caf11f463ce2ae1ac5e",
+                      "size":  176
+                  },
+                  {
+                      "path":  "config/curios-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8af475d222d452c40b548db89c8956f3e4d1e2aaf729464e3065f029936b3e0d.bin",
+                      "sha256":  "8af475d222d452c40b548db89c8956f3e4d1e2aaf729464e3065f029936b3e0d",
+                      "size":  766
+                  },
+                  {
+                      "path":  "config/curios-common.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/5fe808869d46a4b80e1191fbe40f40a4d63987beda0eaeb2d89b909a990ea2ea.bin",
+                      "sha256":  "5fe808869d46a4b80e1191fbe40f40a4d63987beda0eaeb2d89b909a990ea2ea",
+                      "size":  161
+                  },
+                  {
+                      "path":  "config/curios-server.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add.bin",
+                      "sha256":  "1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add",
+                      "size":  483
+                  },
+                  {
+                      "path":  "config/DistantHorizons.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/207de0d5c95d84997d9bc94c4c09d0a6ce2188ec94870c3ccccef5b95f686733.bin",
+                      "sha256":  "207de0d5c95d84997d9bc94c4c09d0a6ce2188ec94870c3ccccef5b95f686733",
+                      "size":  37025
+                  },
+                  {
+                      "path":  "config/dynamic_fps.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356.bin",
+                      "sha256":  "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+                      "size":  3
+                  },
+                  {
+                      "path":  "config/entityculling.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e92e6772c4b6ec28b9c179c80831d56d11fc65064591424a120133d397b2ab49.bin",
+                      "sha256":  "e92e6772c4b6ec28b9c179c80831d56d11fc65064591424a120133d397b2ab49",
+                      "size":  2228
+                  },
+                  {
+                      "path":  "config/farview-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/cc25984d6b917fcf019e19b14bf256ea5844cf1d025a36fba26c3af47690e754.bin",
+                      "sha256":  "cc25984d6b917fcf019e19b14bf256ea5844cf1d025a36fba26c3af47690e754",
+                      "size":  1270
+                  },
+                  {
+                      "path":  "config/ferritecore-mixin.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/1356f9d52b2dcb2afa5a593e53c286d9c1c3778a6f8b1cf761953b185b7dce78.bin",
+                      "sha256":  "1356f9d52b2dcb2afa5a593e53c286d9c1c3778a6f8b1cf761953b185b7dce78",
+                      "size":  1603
+                  },
+                  {
+                      "path":  "config/fieldrations-server.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/79619345c4e7d4666fe2df166c3099200a6db8dfac72569117334b2ef99e8d8d.bin",
+                      "sha256":  "79619345c4e7d4666fe2df166c3099200a6db8dfac72569117334b2ef99e8d8d",
+                      "size":  394
+                  },
+                  {
+                      "path":  "config/firstaid-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3e97cb32be6ea69507a1702a27e9f9f9ce12d6beb411d9416640ba403799c3ef.bin",
+                      "sha256":  "3e97cb32be6ea69507a1702a27e9f9f9ce12d6beb411d9416640ba403799c3ef",
+                      "size":  2340
+                  },
+                  {
+                      "path":  "config/firstaid-common.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e2253d1cfa99c75760c214d6d7fc0e0649fcf79e6015cc6f8ffe5dcf3a28f590.bin",
+                      "sha256":  "e2253d1cfa99c75760c214d6d7fc0e0649fcf79e6015cc6f8ffe5dcf3a28f590",
+                      "size":  183
+                  },
+                  {
+                      "path":  "config/firstaid-server.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9809fb4546e67d268da56419737f4ec74f6444ec063e50b3b23354b81875e8c9.bin",
+                      "sha256":  "9809fb4546e67d268da56419737f4ec74f6444ec063e50b3b23354b81875e8c9",
+                      "size":  12463
+                  },
+                  {
+                      "path":  "config/flywheel-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/49414280350d38397bb99dc9f721e07e8d3d17920094455f08ae10079d460d9a.bin",
+                      "sha256":  "49414280350d38397bb99dc9f721e07e8d3d17920094455f08ae10079d460d9a",
+                      "size":  637
+                  },
+                  {
+                      "path":  "config/fml.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/130d40692dfd3beca3e6c7f6c3b90d6bd9d7499c065829b328176b421b836e60.bin",
+                      "sha256":  "130d40692dfd3beca3e6c7f6c3b90d6bd9d7499c065829b328176b421b836e60",
+                      "size":  1008
+                  },
+                  {
+                      "path":  "config/forge-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc.bin",
+                      "sha256":  "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc",
+                      "size":  1628
+                  },
+                  {
+                      "path":  "config/fracturepoint-common.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/1b9bb62a921164d1ad70aacf7afcfba75f4901c98d9fecc53bd2b39f72486343.bin",
+                      "sha256":  "1b9bb62a921164d1ad70aacf7afcfba75f4901c98d9fecc53bd2b39f72486343",
+                      "size":  1453
+                  },
+                  {
+                      "path":  "config/immersive_ballistic-common.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/188d40a8564b89307fc9bc3084e4da68f7b96995a56a906aa51361b790a2ca2f.bin",
+                      "sha256":  "188d40a8564b89307fc9bc3084e4da68f7b96995a56a906aa51361b790a2ca2f",
+                      "size":  818
+                  },
+                  {
+                      "path":  "config/iris-excluded.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb.bin",
+                      "sha256":  "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb",
+                      "size":  31
+                  },
+                  {
+                      "path":  "config/iris.properties",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ecb156924c738983d4522d90bb9723d84bfe040f11e59c3dd58085fb8d6d38a4.bin",
+                      "sha256":  "ecb156924c738983d4522d90bb9723d84bfe040f11e59c3dd58085fb8d6d38a4",
+                      "size":  320
+                  },
+                  {
+                      "path":  "config/kitsmod-server.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f7ab4b02b86a021dacd6a4210b6e4d5842b710fc8ce8c0655d2bfa34bdb23608.bin",
+                      "sha256":  "f7ab4b02b86a021dacd6a4210b6e4d5842b710fc8ce8c0655d2bfa34bdb23608",
+                      "size":  813
+                  },
+                  {
+                      "path":  "config/letmedespawn.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6af411644e22ede34383135509cb96b2a636d8ed45494b28976514a95537105e.bin",
+                      "sha256":  "6af411644e22ede34383135509cb96b2a636d8ed45494b28976514a95537105e",
+                      "size":  72
+                  },
+                  {
+                      "path":  "config/lithium.properties",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be.bin",
+                      "sha256":  "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be",
+                      "size":  267
+                  },
+                  {
+                      "path":  "config/modernfix-common.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7.bin",
+                      "sha256":  "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7",
+                      "size":  105
+                  },
+                  {
+                      "path":  "config/modernfix-mixins.properties",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/cda1de84880f439d9c8a025861a483d51972e76b8a5a6a253dd0196aec821ac5.bin",
+                      "sha256":  "cda1de84880f439d9c8a025861a483d51972e76b8a5a6a253dd0196aec821ac5",
+                      "size":  5491
+                  },
+                  {
+                      "path":  "config/moreculling.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/db63bd41fae1b92828f13b34b93215549ca167ccf44a4c09d050fe559fa203a5.bin",
+                      "sha256":  "db63bd41fae1b92828f13b34b93215549ca167ccf44a4c09d050fe559fa203a5",
+                      "size":  540
+                  },
+                  {
+                      "path":  "config/neoforge-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d58d93e2c429410d0abf25507d1679f732e1023b03bb52414348efcf5cf3ddb0.bin",
+                      "sha256":  "d58d93e2c429410d0abf25507d1679f732e1023b03bb52414348efcf5cf3ddb0",
+                      "size":  578
+                  },
+                  {
+                      "path":  "config/neoforge-common.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/fe878a2717a145cd890621eac5b3be1e1fd656f7ff9abc6e8d53f670d37474c4.bin",
+                      "sha256":  "fe878a2717a145cd890621eac5b3be1e1fd656f7ff9abc6e8d53f670d37474c4",
+                      "size":  772
+                  },
+                  {
+                      "path":  "config/neoforge-server.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f.bin",
+                      "sha256":  "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f",
+                      "size":  1177
+                  },
+                  {
+                      "path":  "config/offlineskins.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b84921e870e82005697911c5de6ca299ce37522b93aa59328b2312573d1f46d1.bin",
+                      "sha256":  "b84921e870e82005697911c5de6ca299ce37522b93aa59328b2312573d1f46d1",
+                      "size":  302
+                  },
+                  {
+                      "path":  "config/parcool-animation.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/1f1df3cfb64103288fdc943438d9bf5a89785f9e3b2ab7e5fddcef9f5ac36ece.bin",
+                      "sha256":  "1f1df3cfb64103288fdc943438d9bf5a89785f9e3b2ab7e5fddcef9f5ac36ece",
+                      "size":  1364
+                  },
+                  {
+                      "path":  "config/parcool-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/2ead73d142a38176380cc33e1a722e7192c5088bf7c385d87fd1bf98d0c3a477.bin",
+                      "sha256":  "2ead73d142a38176380cc33e1a722e7192c5088bf7c385d87fd1bf98d0c3a477",
+                      "size":  2127
+                  },
+                  {
+                      "path":  "config/parcool-server.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/137945b9eb0e4b82098e716c85cacf8917d9e155a59d52216ec749589453739e.bin",
+                      "sha256":  "137945b9eb0e4b82098e716c85cacf8917d9e155a59d52216ec749589453739e",
+                      "size":  9413
+                  },
+                  {
+                      "path":  "config/pingwheel.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6878009a9f7ca2309feb78f6884556493b6752232f7f87e12901dbb6946ab5ea.bin",
+                      "sha256":  "6878009a9f7ca2309feb78f6884556493b6752232f7f87e12901dbb6946ab5ea",
+                      "size":  410
+                  },
+                  {
+                      "path":  "config/pingwheel.server.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/821d5d12d0c096996c82d1a65349ac803adffcc25b89420a146c727fb92b381a.bin",
+                      "sha256":  "821d5d12d0c096996c82d1a65349ac803adffcc25b89420a146c727fb92b381a",
+                      "size":  111
+                  },
+                  {
+                      "path":  "config/ponder-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba.bin",
+                      "sha256":  "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba",
+                      "size":  635
+                  },
+                  {
+                      "path":  "config/sbwdroneconfig-common.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/0dc3263a9c978dce34971b9ea3b29172df14a395df310f4b0b2d51bf9e7e3ea8.bin",
+                      "sha256":  "0dc3263a9c978dce34971b9ea3b29172df14a395df310f4b0b2d51bf9e7e3ea8",
+                      "size":  27409
+                  },
+                  {
+                      "path":  "config/sbwswarm-server.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e32034071e8d70bf77ecfec36f2f6ea86451340f034501003ecc0b4fffa825ac.bin",
+                      "sha256":  "e32034071e8d70bf77ecfec36f2f6ea86451340f034501003ecc0b4fffa825ac",
+                      "size":  951
+                  },
+                  {
+                      "path":  "config/sbw_ew_addon-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/530928715c64781cc2cbf68d4d32726407dbda1ffcfa9a80b241b7e8b15df308.bin",
+                      "sha256":  "530928715c64781cc2cbf68d4d32726407dbda1ffcfa9a80b241b7e8b15df308",
+                      "size":  878
+                  },
+                  {
+                      "path":  "config/sbw_ew_addon-common.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/93729ac172f6c416d1ff06f6460ee73b44b8f9a34cf78f1746b6c148fe77abc4.bin",
+                      "sha256":  "93729ac172f6c416d1ff06f6460ee73b44b8f9a34cf78f1746b6c148fe77abc4",
+                      "size":  1226
+                  },
+                  {
+                      "path":  "config/sodium-extra-options.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ac6729217977ccee87727d6e17f36290d9ce85b6d1d7d856cc2020faec3dd2ff.bin",
+                      "sha256":  "ac6729217977ccee87727d6e17f36290d9ce85b6d1d7d856cc2020faec3dd2ff",
+                      "size":  2488
+                  },
+                  {
+                      "path":  "config/sodium-extra.properties",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70.bin",
+                      "sha256":  "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70",
+                      "size":  360
+                  },
+                  {
+                      "path":  "config/sodium-fingerprint.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/c7611ef2ae7a7abff4d93e2331f82df8dcc40da2a0426d04e167619ab460a517.bin",
+                      "sha256":  "c7611ef2ae7a7abff4d93e2331f82df8dcc40da2a0426d04e167619ab460a517",
+                      "size":  427
+                  },
+                  {
+                      "path":  "config/sodium-mixins.properties",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01.bin",
+                      "sha256":  "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01",
+                      "size":  258
+                  },
+                  {
+                      "path":  "config/sodium-options.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/38e7087a1381e14b1f1fc5e2f6c8bb41db67b78c8b05eaa3d8fd9f1d20dbe18b.bin",
+                      "sha256":  "38e7087a1381e14b1f1fc5e2f6c8bb41db67b78c8b05eaa3d8fd9f1d20dbe18b",
+                      "size":  761
+                  },
+                  {
+                      "path":  "config/superbwarfare-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/c20e5082b9e953e091c267658bcc4739e00361b25208c0946284516ecd635aeb.bin",
+                      "sha256":  "c20e5082b9e953e091c267658bcc4739e00361b25208c0946284516ecd635aeb",
+                      "size":  4454
+                  },
+                  {
+                      "path":  "config/superbwarfare-common.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/2f45811dc25bfa745e7b0e7f75ed344e7fabed6842b80f1115cdfaa47bc4ae9d.bin",
+                      "sha256":  "2f45811dc25bfa745e7b0e7f75ed344e7fabed6842b80f1115cdfaa47bc4ae9d",
+                      "size":  464
+                  },
+                  {
+                      "path":  "config/superbwarfare-server.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/00157e041ac189b0f18704ca313cb4431b72091b40e36d8a76e79846c85ee95c.bin",
+                      "sha256":  "00157e041ac189b0f18704ca313cb4431b72091b40e36d8a76e79846c85ee95c",
+                      "size":  17134
+                  },
+                  {
+                      "path":  "config/tacz-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/95f4b4e43349699d4af80303b902daf6197d9a9f3a120f58e826f00ffa818dea.bin",
+                      "sha256":  "95f4b4e43349699d4af80303b902daf6197d9a9f3a120f58e826f00ffa818dea",
+                      "size":  3919
+                  },
+                  {
+                      "path":  "config/tacz-common.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/eaa145c521e5cede1d746c93e43d86c98f73d38deb038e6cd7ca975bc0782bb2.bin",
+                      "sha256":  "eaa145c521e5cede1d746c93e43d86c98f73d38deb038e6cd7ca975bc0782bb2",
+                      "size":  2316
+                  },
+                  {
+                      "path":  "config/tacz-pre.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b127fc761c8e000a8f1aceaa19d28c644e64ed00137bdcd2d48a372540cc7bdc.bin",
+                      "sha256":  "b127fc761c8e000a8f1aceaa19d28c644e64ed00137bdcd2d48a372540cc7bdc",
+                      "size":  218
+                  },
+                  {
+                      "path":  "config/tacz-server.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e5492f87645292181b422af6b453d6f91a813cfc7d6a6b11ecfb9c2d034d65f8.bin",
+                      "sha256":  "e5492f87645292181b422af6b453d6f91a813cfc7d6a6b11ecfb9c2d034d65f8",
+                      "size":  2098
+                  },
+                  {
+                      "path":  "config/taczaddon-common.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/29b1e241d35c1e56436ecbacddf0ae96117600e561e74b1d1903312b55f8be79.bin",
+                      "sha256":  "29b1e241d35c1e56436ecbacddf0ae96117600e561e74b1d1903312b55f8be79",
+                      "size":  1005
+                  },
+                  {
+                      "path":  "config/taczturrets-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9c0724690e5f917cea4d381d5fc3c12c011d3bdf220e542224fce0b3c32300d8.bin",
+                      "sha256":  "9c0724690e5f917cea4d381d5fc3c12c011d3bdf220e542224fce0b3c32300d8",
+                      "size":  380
+                  },
+                  {
+                      "path":  "config/taczturrets-server.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/df004df65e925df957adbda00cfffc9abf660533cf2e3789d7d6d66579f3fe48.bin",
+                      "sha256":  "df004df65e925df957adbda00cfffc9abf660533cf2e3789d7d6d66579f3fe48",
+                      "size":  4109
+                  },
+                  {
+                      "path":  "config/tacztweaks-backup-v1.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6d01e8bf0b20c49d56367e52ad85961af3caba265a3d0d554597efbf82253977.bin",
+                      "sha256":  "6d01e8bf0b20c49d56367e52ad85961af3caba265a3d0d554597efbf82253977",
+                      "size":  4701
+                  },
+                  {
+                      "path":  "config/tacztweaks.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6d01e8bf0b20c49d56367e52ad85961af3caba265a3d0d554597efbf82253977.bin",
+                      "sha256":  "6d01e8bf0b20c49d56367e52ad85961af3caba265a3d0d554597efbf82253977",
+                      "size":  4701
+                  },
+                  {
+                      "path":  "config/tacz_x_guns_lights_addon-client.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b9f6ccb0077c6376d89aef79874a1b39ce48b2be28157d9e6b4523217b7a0694.bin",
+                      "sha256":  "b9f6ccb0077c6376d89aef79874a1b39ce48b2be28157d9e6b4523217b7a0694",
+                      "size":  2454
+                  },
+                  {
+                      "path":  "config/teamkits-server.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e1d45ef3ddfd0da40166f35bec33a6125474e80f6683f6454d6648052c9e57cc.bin",
+                      "sha256":  "e1d45ef3ddfd0da40166f35bec33a6125474e80f6683f6454d6648052c9e57cc",
+                      "size":  2182
+                  },
+                  {
+                      "path":  "config/transition.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c.bin",
+                      "sha256":  "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c",
+                      "size":  97
+                  },
+                  {
+                      "path":  "config/trender.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124.bin",
+                      "sha256":  "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124",
+                      "size":  47
+                  },
+                  {
+                      "path":  "config/warborn-armor.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/7390cb41946515e8b6cfefa51bb3498a2b65b184dc7c63e584d0c5ae04b35f2b.bin",
+                      "sha256":  "7390cb41946515e8b6cfefa51bb3498a2b65b184dc7c63e584d0c5ae04b35f2b",
+                      "size":  1337
+                  },
+                  {
+                      "path":  "config/xaerohud.txt",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/58c9270f258d0b224bb7d0f7c927544d5fbe5f1b8027c820e1e14ecbf48fb88c.bin",
+                      "sha256":  "58c9270f258d0b224bb7d0f7c927544d5fbe5f1b8027c820e1e14ecbf48fb88c",
+                      "size":  123
+                  },
+                  {
+                      "path":  "config/xaeropatreon.txt",
+                      "url":  "",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "size":  0
+                  },
+                  {
+                      "path":  "config/yacl.json5",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e.bin",
+                      "sha256":  "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e",
+                      "size":  250
+                  },
+                  {
+                      "path":  "config/axiom/.axiom.json.backup",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f0badc1e1eec42cf4b3fa5eff1e7614450457968567ea92b267193f58323aa14.bin",
+                      "sha256":  "f0badc1e1eec42cf4b3fa5eff1e7614450457968567ea92b267193f58323aa14",
+                      "size":  9785
+                  },
+                  {
+                      "path":  "config/axiom/axiom.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6b0d1b7988a7876d107c025a97605b615f5a5e0fc7ae35941fd57060771849cf.bin",
+                      "sha256":  "6b0d1b7988a7876d107c025a97605b615f5a5e0fc7ae35941fd57060771849cf",
+                      "size":  9784
+                  },
+                  {
+                      "path":  "config/axiom/imgui.ini",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9ce0c227893f58a3f7b1fe056a8c59dce0a886145a1590955d123fdbd9725800.bin",
+                      "sha256":  "9ce0c227893f58a3f7b1fe056a8c59dce0a886145a1590955d123fdbd9725800",
+                      "size":  2362
+                  },
+                  {
+                      "path":  "config/axiom/translations.zip",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/7022e4f447edd6c5019126a6f35de1ba35661248903ffc97489fab64ee9ca74d.bin",
+                      "sha256":  "7022e4f447edd6c5019126a6f35de1ba35661248903ffc97489fab64ee9ca74d",
+                      "size":  1166225
+                  },
+                  {
+                      "path":  "config/axiom/tool_presets/rock/123.nbt",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b74357a558b5717cff4946a7832a1ef87931a95f8a1e64467cf67e14b30a901f.bin",
+                      "sha256":  "b74357a558b5717cff4946a7832a1ef87931a95f8a1e64467cf67e14b30a901f",
+                      "size":  177
+                  },
+                  {
+                      "path":  "config/fabric/indigo-renderer.properties",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/481af3edefc96f36c3d74114dd47dfe6be78e0e3bad9ef2331c756e2101bb4af.bin",
+                      "sha256":  "481af3edefc96f36c3d74114dd47dfe6be78e0e3bad9ef2331c756e2101bb4af",
+                      "size":  290
+                  },
+                  {
+                      "path":  "config/fancymenu/customizablemenus.txt",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2.bin",
+                      "sha256":  "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2",
+                      "size":  76
+                  },
+                  {
+                      "path":  "config/fancymenu/custom_gui_screens.txt",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/626c4bce7185f5e88c9a89ba9de52f0c67260d5cd8dbcbb362827784ac3ff1e0.bin",
+                      "sha256":  "626c4bce7185f5e88c9a89ba9de52f0c67260d5cd8dbcbb362827784ac3ff1e0",
+                      "size":  297
+                  },
+                  {
+                      "path":  "config/fancymenu/legacy_checklist.txt",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0.bin",
+                      "sha256":  "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0",
+                      "size":  42
+                  },
+                  {
+                      "path":  "config/fancymenu/options.txt",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8ab246f419b5b363ab186db80fad034e743675450c90cca80f1f4aef1dd813c6.bin",
+                      "sha256":  "8ab246f419b5b363ab186db80fad034e743675450c90cca80f1f4aef1dd813c6",
+                      "size":  4399
+                  },
+                  {
+                      "path":  "config/fancymenu/user_variables.db",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823.bin",
+                      "sha256":  "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823",
+                      "size":  23
+                  },
+                  {
+                      "path":  "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e398bc5c81ae024f4892ce1bf1e70940bf202392636fce762ece0cda9bbb2982.bin",
+                      "sha256":  "e398bc5c81ae024f4892ce1bf1e70940bf202392636fce762ece0cda9bbb2982",
+                      "size":  199
+                  },
+                  {
+                      "path":  "config/fancymenu/ui_themes/cherry_blossom.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452.bin",
+                      "sha256":  "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452",
+                      "size":  9349
+                  },
+                  {
+                      "path":  "config/fancymenu/ui_themes/cozy_campfire.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50.bin",
+                      "sha256":  "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50",
+                      "size":  9347
+                  },
+                  {
+                      "path":  "config/fancymenu/ui_themes/dark.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498.bin",
+                      "sha256":  "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498",
+                      "size":  9329
+                  },
+                  {
+                      "path":  "config/fancymenu/ui_themes/dark_high_contrast.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26.bin",
+                      "sha256":  "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26",
+                      "size":  9359
+                  },
+                  {
+                      "path":  "config/fancymenu/ui_themes/light.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153.bin",
+                      "sha256":  "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153",
+                      "size":  9331
+                  },
+                  {
+                      "path":  "config/fancymenu/ui_themes/light_high_contrast.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a.bin",
+                      "sha256":  "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a",
+                      "size":  9361
+                  },
+                  {
+                      "path":  "config/fancymenu/ui_themes/pumpkin_soup.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311.bin",
+                      "sha256":  "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311",
+                      "size":  9345
+                  },
+                  {
+                      "path":  "config/fancymenu/ui_themes/purple_void.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0.bin",
+                      "sha256":  "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0",
+                      "size":  9343
+                  },
+                  {
+                      "path":  "config/fancymenu/ui_themes/spooky_season.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd.bin",
+                      "sha256":  "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd",
+                      "size":  9347
+                  },
+                  {
+                      "path":  "config/immersive_ballistic/ammo_rules.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9f4e4ddafa6443e7eaa26dbfff9ab3b3bf3c7e77fab1291aa62610eac88f8674.bin",
+                      "sha256":  "9f4e4ddafa6443e7eaa26dbfff9ab3b3bf3c7e77fab1291aa62610eac88f8674",
+                      "size":  1084
+                  },
+                  {
+                      "path":  "config/immersive_ballistic/block_tagger_rules.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f54edfd8c3cee190f50d6e19a0ebdfe6d0d9cdd69cd877f6415565cf2f6840cf.bin",
+                      "sha256":  "f54edfd8c3cee190f50d6e19a0ebdfe6d0d9cdd69cd877f6415565cf2f6840cf",
+                      "size":  3425
+                  },
+                  {
+                      "path":  "config/immersive_ballistic/interaction_rules.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/414c740c5b17cad7ea2cb902a96c01720fbf0ed4fcb246f52cbf30d8295673af.bin",
+                      "sha256":  "414c740c5b17cad7ea2cb902a96c01720fbf0ed4fcb246f52cbf30d8295673af",
+                      "size":  941
+                  },
+                  {
+                      "path":  "config/konkrete/locals/de_de.local",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef.bin",
+                      "sha256":  "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef",
+                      "size":  369
+                  },
+                  {
+                      "path":  "config/konkrete/locals/en_us.local",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a.bin",
+                      "sha256":  "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a",
+                      "size":  426
+                  },
+                  {
+                      "path":  "config/konkrete/locals/pl_pl.local",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8.bin",
+                      "sha256":  "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8",
+                      "size":  313
+                  },
+                  {
+                      "path":  "config/konkrete/locals/pt_br.local",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c.bin",
+                      "sha256":  "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c",
+                      "size":  322
+                  },
+                  {
+                      "path":  "config/tacz/custom/maxstuff-legacy-neoforge-1.21.1-1.8.3.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/dcd5df94ac8136b2ab4ade73f9c0ba67bb6cee76ea51e5be364ddedfde0dd90b.bin",
+                      "sha256":  "dcd5df94ac8136b2ab4ade73f9c0ba67bb6cee76ea51e5be364ddedfde0dd90b",
+                      "size":  33741883
+                  },
+                  {
+                      "path":  "config/tacz/custom/Tacz from Tarkov v1.1a-1.21.1.zip",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/2aee18bb26422bf733b2a168200131a22c801262d9b6f246726a89cd03226854.bin",
+                      "sha256":  "2aee18bb26422bf733b2a168200131a22c801262d9b6f246726a89cd03226854",
+                      "size":  17759882
+                  },
+                  {
+                      "path":  "config/voicechat/category-volumes.properties",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f41ee36151d8078a151a69c9bf77f51857885fd1db5fdf5505f16229c504be0e.bin",
+                      "sha256":  "f41ee36151d8078a151a69c9bf77f51857885fd1db5fdf5505f16229c504be0e",
+                      "size":  89
+                  },
+                  {
+                      "path":  "config/voicechat/player-volumes.properties",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b0b1972472c010bfef7f83a6af61b5e458b1118f7127aa12dafa63a6aab23650.bin",
+                      "sha256":  "b0b1972472c010bfef7f83a6af61b5e458b1118f7127aa12dafa63a6aab23650",
+                      "size":  484
+                  },
+                  {
+                      "path":  "config/voicechat/translations.properties",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/693643b1d393cbb3ea7f062afc4474fcd66e4036c4f8d7c056434979cbf512d1.bin",
+                      "sha256":  "693643b1d393cbb3ea7f062afc4474fcd66e4036c4f8d7c056434979cbf512d1",
+                      "size":  1182
+                  },
+                  {
+                      "path":  "config/voicechat/username-cache.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/67e852ec8c624555a22f0d5da202f3fff80752a9a146305148a7eed81ce75094.bin",
+                      "sha256":  "67e852ec8c624555a22f0d5da202f3fff80752a9a146305148a7eed81ce75094",
+                      "size":  461
+                  },
+                  {
+                      "path":  "config/voicechat/voicechat-client.properties",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ff711e54eaae29323e85f3b6def9445d3b17b29af2a73e3691c357003cf1b729.bin",
+                      "sha256":  "ff711e54eaae29323e85f3b6def9445d3b17b29af2a73e3691c357003cf1b729",
+                      "size":  5236
+                  },
+                  {
+                      "path":  "config/voicechat/voicechat-server.properties",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8b9f11bee503e1f01b46223142a9eb64b23b10e2f9e21c2cae24a0c478e42585.bin",
+                      "sha256":  "8b9f11bee503e1f01b46223142a9eb64b23b10e2f9e21c2cae24a0c478e42585",
+                      "size":  3072
+                  },
+                  {
+                      "path":  "config/warfaremapskits/menu.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/594b310cc9f04451d3c556135130b94f4376748f4013c6fa09f91e5309e4acb3.bin",
+                      "sha256":  "594b310cc9f04451d3c556135130b94f4376748f4013c6fa09f91e5309e4acb3",
+                      "size":  246
+                  },
+                  {
+                      "path":  "config/warfaremapskits/postfx.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/58ea2979776a2fb00f4b26615b98a5176716473e241e6a0c38d37287a0afb0dc.bin",
+                      "sha256":  "58ea2979776a2fb00f4b26615b98a5176716473e241e6a0c38d37287a0afb0dc",
+                      "size":  142
+                  },
+                  {
+                      "path":  "config/warfaremapskits/ui.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/30a775af98061e5bcc1a4881902d51a2f2281c612bc8a9fdd94e0fe6e3145e55.bin",
+                      "sha256":  "30a775af98061e5bcc1a4881902d51a2f2281c612bc8a9fdd94e0fe6e3145e55",
+                      "size":  19
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00001.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b05c7177f64c4d26fc90367a026b6217ae470d847b1047a2fd390db6a57f6f89.bin",
+                      "sha256":  "b05c7177f64c4d26fc90367a026b6217ae470d847b1047a2fd390db6a57f6f89",
+                      "size":  38161
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00002.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b05c7177f64c4d26fc90367a026b6217ae470d847b1047a2fd390db6a57f6f89.bin",
+                      "sha256":  "b05c7177f64c4d26fc90367a026b6217ae470d847b1047a2fd390db6a57f6f89",
+                      "size":  38161
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00003.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/268bed25a19548a42a1c493cecddc0440e336c0737f32964daa6e992bff6a6ba.bin",
+                      "sha256":  "268bed25a19548a42a1c493cecddc0440e336c0737f32964daa6e992bff6a6ba",
+                      "size":  37847
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00004.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ad018f527d28335f707d2f0a8ff2db4d1d82affdb08669fefdacfa301113f948.bin",
+                      "sha256":  "ad018f527d28335f707d2f0a8ff2db4d1d82affdb08669fefdacfa301113f948",
+                      "size":  38444
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00005.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ebb1cde5aa7c0645307904cd13213548035603248cb4b5b864ec1c7600739762.bin",
+                      "sha256":  "ebb1cde5aa7c0645307904cd13213548035603248cb4b5b864ec1c7600739762",
+                      "size":  37736
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00006.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/96202fe518bf9d6f659fdb05d3a1c5bcd81a78794063bf562a70bade138a665f.bin",
+                      "sha256":  "96202fe518bf9d6f659fdb05d3a1c5bcd81a78794063bf562a70bade138a665f",
+                      "size":  38498
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00007.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/381dc142683d84890fa13faa070e07eacd19dbb0ae9637b596266b8cac495f95.bin",
+                      "sha256":  "381dc142683d84890fa13faa070e07eacd19dbb0ae9637b596266b8cac495f95",
+                      "size":  37266
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00008.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/974096c59f2459b50a7c1faaff462609d0163584906a9b1ce0f9dc66b3fdc1ef.bin",
+                      "sha256":  "974096c59f2459b50a7c1faaff462609d0163584906a9b1ce0f9dc66b3fdc1ef",
+                      "size":  38299
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00009.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/cffea43640c84296885fbdb578f1916bad6bccc1492240154871e1e914c312da.bin",
+                      "sha256":  "cffea43640c84296885fbdb578f1916bad6bccc1492240154871e1e914c312da",
+                      "size":  37109
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00010.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/43ba8b9a959ddf08e6a8a3f1b05e1fb0a4d682fd2e8180d733f18b38375fa6a8.bin",
+                      "sha256":  "43ba8b9a959ddf08e6a8a3f1b05e1fb0a4d682fd2e8180d733f18b38375fa6a8",
+                      "size":  38414
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00011.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/151b272a5cd6bfed7bb28e3869d4367f18a9ae9981868d3844b26c7b2bdd225b.bin",
+                      "sha256":  "151b272a5cd6bfed7bb28e3869d4367f18a9ae9981868d3844b26c7b2bdd225b",
+                      "size":  37171
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00012.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f8f323dfe3ee2adba2a01dcaae3043bc8021290710873c66311422eb1b780d73.bin",
+                      "sha256":  "f8f323dfe3ee2adba2a01dcaae3043bc8021290710873c66311422eb1b780d73",
+                      "size":  38332
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00013.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/2ca7bdf6374be1c8ab8837975721c8f3021a4b390ff839fd46eac79f82f382e5.bin",
+                      "sha256":  "2ca7bdf6374be1c8ab8837975721c8f3021a4b390ff839fd46eac79f82f382e5",
+                      "size":  36731
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00014.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/71e248b6d65b17491639ec74f9be6c73a337c4c68f99a5d534ef56fb9e52c58f.bin",
+                      "sha256":  "71e248b6d65b17491639ec74f9be6c73a337c4c68f99a5d534ef56fb9e52c58f",
+                      "size":  38358
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00015.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9bcd0804aa3cf294373addcc3289db1daf100c8db275d17d89bad807a1b8f1f7.bin",
+                      "sha256":  "9bcd0804aa3cf294373addcc3289db1daf100c8db275d17d89bad807a1b8f1f7",
+                      "size":  36692
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00016.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/20e2ab469b61464e9bd96c60e4f15936651d9764a1d36374b43993543a9992bb.bin",
+                      "sha256":  "20e2ab469b61464e9bd96c60e4f15936651d9764a1d36374b43993543a9992bb",
+                      "size":  38288
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00017.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f3f8bbf50a096117c5d7d848b89c4ad0e85a9e7337f8528dbd17bbd0459e8cbc.bin",
+                      "sha256":  "f3f8bbf50a096117c5d7d848b89c4ad0e85a9e7337f8528dbd17bbd0459e8cbc",
+                      "size":  36679
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00018.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/97ee6f0447b740c42c52ffde7739bd304c68d3be3afe3858ed563feb2c14d272.bin",
+                      "sha256":  "97ee6f0447b740c42c52ffde7739bd304c68d3be3afe3858ed563feb2c14d272",
+                      "size":  38220
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00019.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8b910fef6930bd4bfa15e78e326cdbf3e4961dd16fda46b90eed845fcaad55a5.bin",
+                      "sha256":  "8b910fef6930bd4bfa15e78e326cdbf3e4961dd16fda46b90eed845fcaad55a5",
+                      "size":  36523
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00020.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/15fbda509c021c68f22f4fada7ef91c1509ef0ccb16494440f7797eadfbb01a6.bin",
+                      "sha256":  "15fbda509c021c68f22f4fada7ef91c1509ef0ccb16494440f7797eadfbb01a6",
+                      "size":  38463
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00021.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/c8fcbe0925bb03da196e15fe03bfb2b877ceab8fb735f83e9f1cf058d38d33a7.bin",
+                      "sha256":  "c8fcbe0925bb03da196e15fe03bfb2b877ceab8fb735f83e9f1cf058d38d33a7",
+                      "size":  36653
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00022.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/30c21fbccca1c1f18b960b41c0fe2c4ff5608f426c54c9d76184bcd1b14db07b.bin",
+                      "sha256":  "30c21fbccca1c1f18b960b41c0fe2c4ff5608f426c54c9d76184bcd1b14db07b",
+                      "size":  38428
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00023.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e767873b1ef21832379e3aee293dbf626f4815389111b3a9ddeea4fa098b3b42.bin",
+                      "sha256":  "e767873b1ef21832379e3aee293dbf626f4815389111b3a9ddeea4fa098b3b42",
+                      "size":  36788
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00024.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d1e8d4cf9e44b51a16395a57b6b13e2502b9580a9781f37a9da80b21789c5136.bin",
+                      "sha256":  "d1e8d4cf9e44b51a16395a57b6b13e2502b9580a9781f37a9da80b21789c5136",
+                      "size":  38502
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00025.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a911edc3548d02b327f2ba2671de1b56986f0275875b773b1355b96d6dcbd67c.bin",
+                      "sha256":  "a911edc3548d02b327f2ba2671de1b56986f0275875b773b1355b96d6dcbd67c",
+                      "size":  38370
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00026.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/0566b2b512935e07963eb2f09844b0464633ef293ca37ed1db4c76cc08181100.bin",
+                      "sha256":  "0566b2b512935e07963eb2f09844b0464633ef293ca37ed1db4c76cc08181100",
+                      "size":  37921
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00027.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f540f31f2279a5d0d7b9348779b74c723445655759b86eaf9874c29c42f81697.bin",
+                      "sha256":  "f540f31f2279a5d0d7b9348779b74c723445655759b86eaf9874c29c42f81697",
+                      "size":  35960
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00028.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d1d6fdc4f42fac6e378471cef407cdb4230831555da944c600ba57e74028cff6.bin",
+                      "sha256":  "d1d6fdc4f42fac6e378471cef407cdb4230831555da944c600ba57e74028cff6",
+                      "size":  37900
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00029.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f133c49f8dee960ce225dbdc1a4b36ffc2843f887f5b5059f216f8eb9b1d0690.bin",
+                      "sha256":  "f133c49f8dee960ce225dbdc1a4b36ffc2843f887f5b5059f216f8eb9b1d0690",
+                      "size":  36240
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00030.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/0b4ce8d703a59e082d42662cc6c8ff84e1cf8daa80ebc4a5fc485a0d886ebc1c.bin",
+                      "sha256":  "0b4ce8d703a59e082d42662cc6c8ff84e1cf8daa80ebc4a5fc485a0d886ebc1c",
+                      "size":  37869
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00031.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/dd2aaf8fd6276831bbafa280214843e1045ff59ea5c5edc49cd7cec5e5313012.bin",
+                      "sha256":  "dd2aaf8fd6276831bbafa280214843e1045ff59ea5c5edc49cd7cec5e5313012",
+                      "size":  36151
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00032.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/12cbb4281900abc75aa1a5455fc86191ccfd3b3be4e54da786605d395f0775b1.bin",
+                      "sha256":  "12cbb4281900abc75aa1a5455fc86191ccfd3b3be4e54da786605d395f0775b1",
+                      "size":  37967
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00033.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3a0f4ad18b0e8df9def2aa8a07a6649cc8646edde661c720573fd61890cb5f68.bin",
+                      "sha256":  "3a0f4ad18b0e8df9def2aa8a07a6649cc8646edde661c720573fd61890cb5f68",
+                      "size":  36336
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00034.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/90ac241008a8e7e9ef29c5be01801296ed7636d3bf15451774a2779ffcbe4afe.bin",
+                      "sha256":  "90ac241008a8e7e9ef29c5be01801296ed7636d3bf15451774a2779ffcbe4afe",
+                      "size":  37987
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00035.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/29db2fa791820f53bbdb0e0f1cac297392f5f574a1b98a50a3c871c87c324d55.bin",
+                      "sha256":  "29db2fa791820f53bbdb0e0f1cac297392f5f574a1b98a50a3c871c87c324d55",
+                      "size":  36173
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00036.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6c8da7ac3659de578509dc363aa676c22454c87aa1909877e56bd925efc430f5.bin",
+                      "sha256":  "6c8da7ac3659de578509dc363aa676c22454c87aa1909877e56bd925efc430f5",
+                      "size":  37731
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00037.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ae3b6209aa426b4e61afc074b401bbc6c57c93182aa01985bb9467144ab14a76.bin",
+                      "sha256":  "ae3b6209aa426b4e61afc074b401bbc6c57c93182aa01985bb9467144ab14a76",
+                      "size":  35970
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00038.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/5270a4b8624c6cf017295ab9d4147cc2f5a87b5194d6f68957552e1bcd033f5b.bin",
+                      "sha256":  "5270a4b8624c6cf017295ab9d4147cc2f5a87b5194d6f68957552e1bcd033f5b",
+                      "size":  37665
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00039.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/c73aa960cdf8a2bdffbcd5ea33b451ba229c72f600a9d59636cbdb735f5b4b92.bin",
+                      "sha256":  "c73aa960cdf8a2bdffbcd5ea33b451ba229c72f600a9d59636cbdb735f5b4b92",
+                      "size":  35867
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00040.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/903b60a5a39e5a9a19eed89f49023f957ab6a2380a4886cc27b0bd7417f2371d.bin",
+                      "sha256":  "903b60a5a39e5a9a19eed89f49023f957ab6a2380a4886cc27b0bd7417f2371d",
+                      "size":  37640
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00041.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/0b76026d353f11f5c6f19c734fc055aee9e64d59c2e02723367ad7a1886015c2.bin",
+                      "sha256":  "0b76026d353f11f5c6f19c734fc055aee9e64d59c2e02723367ad7a1886015c2",
+                      "size":  35854
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00042.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/163eb9c218c3f100a2e9a3b66a2978055264143494b9967f10c162681619de78.bin",
+                      "sha256":  "163eb9c218c3f100a2e9a3b66a2978055264143494b9967f10c162681619de78",
+                      "size":  37403
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00043.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a7c6e7c1214742b31babf6765ed675b4ff107635e1f2276b0544e781265424b2.bin",
+                      "sha256":  "a7c6e7c1214742b31babf6765ed675b4ff107635e1f2276b0544e781265424b2",
+                      "size":  36326
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00044.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d1a8cb890b00a458b6f005411fa18e6264eddfc265fdc8440afa26411d01ca22.bin",
+                      "sha256":  "d1a8cb890b00a458b6f005411fa18e6264eddfc265fdc8440afa26411d01ca22",
+                      "size":  37743
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00045.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/20b8d14cbf22d2da733fa7d833f27dfd8e598ba01fa1661ae63c3bfe1cc85d0f.bin",
+                      "sha256":  "20b8d14cbf22d2da733fa7d833f27dfd8e598ba01fa1661ae63c3bfe1cc85d0f",
+                      "size":  36263
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00046.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/0119857f3aa329fcb43f62dc78cc5292a7161df4ea63c6e5246b5465f38ba786.bin",
+                      "sha256":  "0119857f3aa329fcb43f62dc78cc5292a7161df4ea63c6e5246b5465f38ba786",
+                      "size":  37631
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00047.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/5314bba95c3b838b74e590231a9c93dea79f8d9037eefbedc2a4f49f5f865d66.bin",
+                      "sha256":  "5314bba95c3b838b74e590231a9c93dea79f8d9037eefbedc2a4f49f5f865d66",
+                      "size":  36341
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00048.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e376c05d3d9edaaea2755646f6e41f13a4157e82279c559f0465a1e03ab756f8.bin",
+                      "sha256":  "e376c05d3d9edaaea2755646f6e41f13a4157e82279c559f0465a1e03ab756f8",
+                      "size":  37601
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00049.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/404c97ec87a0e74d302f0298be483e0ffa95a6d177442210f7ddae3bd8ba45c5.bin",
+                      "sha256":  "404c97ec87a0e74d302f0298be483e0ffa95a6d177442210f7ddae3bd8ba45c5",
+                      "size":  37488
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00050.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f58e4da682173e83bdd194787bf69e66f2447adf6b0e41c99ec9e59b8278d308.bin",
+                      "sha256":  "f58e4da682173e83bdd194787bf69e66f2447adf6b0e41c99ec9e59b8278d308",
+                      "size":  37469
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00051.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/952a82a1f4d016fc02416dad18ba652e4119bd9aa501e8f3c3f9d83d9cb2e5d3.bin",
+                      "sha256":  "952a82a1f4d016fc02416dad18ba652e4119bd9aa501e8f3c3f9d83d9cb2e5d3",
+                      "size":  36425
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00052.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/4929cafc9d1088b4a8d56db1f349b2bd9698a056713b01256f039f103bebfb05.bin",
+                      "sha256":  "4929cafc9d1088b4a8d56db1f349b2bd9698a056713b01256f039f103bebfb05",
+                      "size":  37904
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00053.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/2df0dbd79c3884718c66eb6d30acdbdcc622767f47ba893c94df04738bdb15d6.bin",
+                      "sha256":  "2df0dbd79c3884718c66eb6d30acdbdcc622767f47ba893c94df04738bdb15d6",
+                      "size":  36501
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00054.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b3860be2b5a85258669e24715786a3a0f19255451fb14397551762acba2d6cb6.bin",
+                      "sha256":  "b3860be2b5a85258669e24715786a3a0f19255451fb14397551762acba2d6cb6",
+                      "size":  38046
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00055.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/cb96a85aa3c64d1a4651c40d09533985a2cb6552394c3615b98ae71435d02994.bin",
+                      "sha256":  "cb96a85aa3c64d1a4651c40d09533985a2cb6552394c3615b98ae71435d02994",
+                      "size":  36473
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00056.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/2abadfd4d5a9515b48b5cfd7bb6b39460b4c90395188c4e35ed977e4bd25b5be.bin",
+                      "sha256":  "2abadfd4d5a9515b48b5cfd7bb6b39460b4c90395188c4e35ed977e4bd25b5be",
+                      "size":  38085
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00057.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b016f0bcbb3adf35e87431ddc31814460b5477825b0d2237be997b7105200561.bin",
+                      "sha256":  "b016f0bcbb3adf35e87431ddc31814460b5477825b0d2237be997b7105200561",
+                      "size":  36943
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00058.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ca3dee6289931dc5915ee794b481a2a1b9607c28dfbdf253cf6861dcc3d27adf.bin",
+                      "sha256":  "ca3dee6289931dc5915ee794b481a2a1b9607c28dfbdf253cf6861dcc3d27adf",
+                      "size":  38606
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00059.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/83fd7dcc9d194c44b63cec005199c185df921666dae61165ad837f63bcdd7d2b.bin",
+                      "sha256":  "83fd7dcc9d194c44b63cec005199c185df921666dae61165ad837f63bcdd7d2b",
+                      "size":  37278
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00060.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/496c89e44d5d9e56eb8950e23eca0b77fdb32b46b704a9b32d5979043618089f.bin",
+                      "sha256":  "496c89e44d5d9e56eb8950e23eca0b77fdb32b46b704a9b32d5979043618089f",
+                      "size":  38804
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00061.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/abfa060f993d7fbc389e2cf19cbe087d7be0b04985781df2b8c2b3f9da57db3e.bin",
+                      "sha256":  "abfa060f993d7fbc389e2cf19cbe087d7be0b04985781df2b8c2b3f9da57db3e",
+                      "size":  37598
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00062.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/4cf74b853458912ed673d3a719814b23617fce02ec93fa550246f69add9881db.bin",
+                      "sha256":  "4cf74b853458912ed673d3a719814b23617fce02ec93fa550246f69add9881db",
+                      "size":  38900
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00063.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e903c4f5bf2de5cced691e27589fe075c8e767c4061ecb152bfe451540532d0f.bin",
+                      "sha256":  "e903c4f5bf2de5cced691e27589fe075c8e767c4061ecb152bfe451540532d0f",
+                      "size":  37720
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00064.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/4e41e0c9f8b0e3dae8880366172cc40938590d6786a43ccb383ed55cd5e3dd40.bin",
+                      "sha256":  "4e41e0c9f8b0e3dae8880366172cc40938590d6786a43ccb383ed55cd5e3dd40",
+                      "size":  39046
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00065.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/2571bbc21a715a2222fd5cd6b16e367b53832e3c5d6ae0423c2bc4a2180b2c47.bin",
+                      "sha256":  "2571bbc21a715a2222fd5cd6b16e367b53832e3c5d6ae0423c2bc4a2180b2c47",
+                      "size":  37957
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00066.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d7a90723de7e63bdd8251ae8fd2f9c5b31c413e401152013568c4bd975c5c885.bin",
+                      "sha256":  "d7a90723de7e63bdd8251ae8fd2f9c5b31c413e401152013568c4bd975c5c885",
+                      "size":  39219
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00067.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/eef3c1ef7c649f61f31861a2d5490154f397b15479805c4cb9e7c8f898d1f5a4.bin",
+                      "sha256":  "eef3c1ef7c649f61f31861a2d5490154f397b15479805c4cb9e7c8f898d1f5a4",
+                      "size":  37972
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00068.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/1c972b36c2be97ac6cd20af012907db9e8735569095e1a533f0ec49bdec51494.bin",
+                      "sha256":  "1c972b36c2be97ac6cd20af012907db9e8735569095e1a533f0ec49bdec51494",
+                      "size":  39285
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00069.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/31ee08355eb642e33e5ec9753233f231eb9341b23aa3ea8ac1dc393b7803247c.bin",
+                      "sha256":  "31ee08355eb642e33e5ec9753233f231eb9341b23aa3ea8ac1dc393b7803247c",
+                      "size":  38066
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00070.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/c79b50520dc383c2ec899b2f6b008b8f35ad807364007f3c8df04ec78b5d4e1a.bin",
+                      "sha256":  "c79b50520dc383c2ec899b2f6b008b8f35ad807364007f3c8df04ec78b5d4e1a",
+                      "size":  39421
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00071.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/499751680393b2218eff784e1ca06ef8c6b0ba734d59d3e1cb6df35d02c962a3.bin",
+                      "sha256":  "499751680393b2218eff784e1ca06ef8c6b0ba734d59d3e1cb6df35d02c962a3",
+                      "size":  38276
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00072.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/94ad1f355932a4932dacbd9f9bf7c834d3ba3b8d3b3888cb0f823fca34742067.bin",
+                      "sha256":  "94ad1f355932a4932dacbd9f9bf7c834d3ba3b8d3b3888cb0f823fca34742067",
+                      "size":  39464
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00073.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d14d68f21269b203e605564d3887d1894ac1ed0e90e1474e103dcb51c4ddb12f.bin",
+                      "sha256":  "d14d68f21269b203e605564d3887d1894ac1ed0e90e1474e103dcb51c4ddb12f",
+                      "size":  39393
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00074.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/cbb5ab14d23d3a204616a4d1342c62c8750e20401e233a9a57e2684ce50b8bf1.bin",
+                      "sha256":  "cbb5ab14d23d3a204616a4d1342c62c8750e20401e233a9a57e2684ce50b8bf1",
+                      "size":  39236
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00075.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f6c0fcb5efad5d070e2d0e1d85e2ae05fedaa0a0352b870657dae0ae37ce24ea.bin",
+                      "sha256":  "f6c0fcb5efad5d070e2d0e1d85e2ae05fedaa0a0352b870657dae0ae37ce24ea",
+                      "size":  38455
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00076.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/33612265fa2729487eb0ec5d0a1ceeaae98a8fa45e55960aa949583728515fb8.bin",
+                      "sha256":  "33612265fa2729487eb0ec5d0a1ceeaae98a8fa45e55960aa949583728515fb8",
+                      "size":  39505
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00077.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/7aa39338aee9205f98af4062cdf8d6dd70ed6f5dcbba3aa2a813e55ed01c7ceb.bin",
+                      "sha256":  "7aa39338aee9205f98af4062cdf8d6dd70ed6f5dcbba3aa2a813e55ed01c7ceb",
+                      "size":  38543
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00078.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/de4ea990f0d2932be505a8f229cb290070422213a240f6a703bc9375334c972d.bin",
+                      "sha256":  "de4ea990f0d2932be505a8f229cb290070422213a240f6a703bc9375334c972d",
+                      "size":  39635
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00079.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/376775324079d84eafccaed3b9bf07f9095a6be5b5607216f0a24cd28df98f0f.bin",
+                      "sha256":  "376775324079d84eafccaed3b9bf07f9095a6be5b5607216f0a24cd28df98f0f",
+                      "size":  38590
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00080.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/26d290557c53551d130b455b261c1c1a0eb1ceee4b342a9b01ceb6b8b409a1f0.bin",
+                      "sha256":  "26d290557c53551d130b455b261c1c1a0eb1ceee4b342a9b01ceb6b8b409a1f0",
+                      "size":  39693
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00081.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/58912b4589ab6f28e5c638fa0efa1eb342c6cb91369f94ca5c11bf4b3d0042de.bin",
+                      "sha256":  "58912b4589ab6f28e5c638fa0efa1eb342c6cb91369f94ca5c11bf4b3d0042de",
+                      "size":  38840
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00082.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d294bbcc2085c72bd15304f268f66ea0cc82515debb4012963ff4e4c2e8aef14.bin",
+                      "sha256":  "d294bbcc2085c72bd15304f268f66ea0cc82515debb4012963ff4e4c2e8aef14",
+                      "size":  40097
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00083.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e55f423ef5d39346e1acdd751fadf9ed1f98d5e6ff72a04f0de4c47dd3a8e2b8.bin",
+                      "sha256":  "e55f423ef5d39346e1acdd751fadf9ed1f98d5e6ff72a04f0de4c47dd3a8e2b8",
+                      "size":  38753
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00084.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6dc405392e9136890dd83793e75695eacfebb3a82fe85bc0c6684174589fcb8f.bin",
+                      "sha256":  "6dc405392e9136890dd83793e75695eacfebb3a82fe85bc0c6684174589fcb8f",
+                      "size":  40035
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00085.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6b395fdbe57892d492c06c2943e3b18d93172ab1880d62f5d043b320b0e9b317.bin",
+                      "sha256":  "6b395fdbe57892d492c06c2943e3b18d93172ab1880d62f5d043b320b0e9b317",
+                      "size":  39186
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00086.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/4ef43b8e35d306f45f8008a472a93a390014cbe3e9b1ff443a5ef3024cd9a700.bin",
+                      "sha256":  "4ef43b8e35d306f45f8008a472a93a390014cbe3e9b1ff443a5ef3024cd9a700",
+                      "size":  40292
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00087.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9af24ea89e5589556d32cc4894765b50d9646c1e9080122de39b22a018a1f735.bin",
+                      "sha256":  "9af24ea89e5589556d32cc4894765b50d9646c1e9080122de39b22a018a1f735",
+                      "size":  39235
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00088.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/43dbd82bbcd78c1d8828f0507d610e97183af59416c7a2a367734efbe1f0d0cc.bin",
+                      "sha256":  "43dbd82bbcd78c1d8828f0507d610e97183af59416c7a2a367734efbe1f0d0cc",
+                      "size":  40068
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00089.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/7f8d7ee0bc866035bf9670a6828908718be58fb8d2961728c841e32828c3157f.bin",
+                      "sha256":  "7f8d7ee0bc866035bf9670a6828908718be58fb8d2961728c841e32828c3157f",
+                      "size":  39429
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00090.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/546db693ab7e1df42db1f50b7c9dc667c10e044c76281205ed34149683b63a53.bin",
+                      "sha256":  "546db693ab7e1df42db1f50b7c9dc667c10e044c76281205ed34149683b63a53",
+                      "size":  40584
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00091.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/96e3f7123ce726dbe0bfc3950cbe7955a3d838555d8fe0a9be4bdf5bc1578077.bin",
+                      "sha256":  "96e3f7123ce726dbe0bfc3950cbe7955a3d838555d8fe0a9be4bdf5bc1578077",
+                      "size":  39734
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00092.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8f646258f6a17d268dd2b6a56bf6bf5f60435a94c7f7858aa2e4b7e6c0c96472.bin",
+                      "sha256":  "8f646258f6a17d268dd2b6a56bf6bf5f60435a94c7f7858aa2e4b7e6c0c96472",
+                      "size":  40693
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00093.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d51be4e38e53c528bc33eda2c2c212631425226d630f8f26047315869d225073.bin",
+                      "sha256":  "d51be4e38e53c528bc33eda2c2c212631425226d630f8f26047315869d225073",
+                      "size":  39884
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00094.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/636add3678e883d7c4cdc024cc0a3e17adba82c84626646a209b3c6416a08e45.bin",
+                      "sha256":  "636add3678e883d7c4cdc024cc0a3e17adba82c84626646a209b3c6416a08e45",
+                      "size":  42647
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00095.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/460ba04ad3ef6a6044dd5cd8c5f9178566b151b438769a1829d427d3360cb5e9.bin",
+                      "sha256":  "460ba04ad3ef6a6044dd5cd8c5f9178566b151b438769a1829d427d3360cb5e9",
+                      "size":  41671
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00096.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/32fd33710ead2059c6a2aa7505acb781fb4f0349d4a3987034aafb30867e5a6e.bin",
+                      "sha256":  "32fd33710ead2059c6a2aa7505acb781fb4f0349d4a3987034aafb30867e5a6e",
+                      "size":  42922
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00097.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/935e01ad891a75efe26282e3eaefbab6dde8c60af38d6e06cefa98542c1d6ff1.bin",
+                      "sha256":  "935e01ad891a75efe26282e3eaefbab6dde8c60af38d6e06cefa98542c1d6ff1",
+                      "size":  42826
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00098.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6d108a9a8798fb508c37dd28e8f0775178d4f1c9e8c1cb4de939f99df9a60d02.bin",
+                      "sha256":  "6d108a9a8798fb508c37dd28e8f0775178d4f1c9e8c1cb4de939f99df9a60d02",
+                      "size":  43096
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00099.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/bb8b16d8c517e85b0da70110f739d956f31768723fc710daafa0419242e52385.bin",
+                      "sha256":  "bb8b16d8c517e85b0da70110f739d956f31768723fc710daafa0419242e52385",
+                      "size":  42259
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00100.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/81f1540444406a4c586664f8bb328170fa01613e12850861c5a74934a06e04c5.bin",
+                      "sha256":  "81f1540444406a4c586664f8bb328170fa01613e12850861c5a74934a06e04c5",
+                      "size":  43313
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00101.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/de2e47acc9758e9464a2fadfb8da4d8e6bc02e94ae75ab185698f9606660c929.bin",
+                      "sha256":  "de2e47acc9758e9464a2fadfb8da4d8e6bc02e94ae75ab185698f9606660c929",
+                      "size":  42358
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00102.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3bd0e3672856ac2ffcb3e1b48d59d054e24d3d944bf8d9d6c87c43ce4c88fbbf.bin",
+                      "sha256":  "3bd0e3672856ac2ffcb3e1b48d59d054e24d3d944bf8d9d6c87c43ce4c88fbbf",
+                      "size":  43550
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00103.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8a02eeae68e1e9b38b00fefd19c6ec5310fdf58343f1dcc5a2e933864f377089.bin",
+                      "sha256":  "8a02eeae68e1e9b38b00fefd19c6ec5310fdf58343f1dcc5a2e933864f377089",
+                      "size":  42774
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00104.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9edc13d2bddc5577c4633ff4724d7548167018bb1625c3f36bb9d23d1926f207.bin",
+                      "sha256":  "9edc13d2bddc5577c4633ff4724d7548167018bb1625c3f36bb9d23d1926f207",
+                      "size":  43903
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00105.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/276add5a5435ff73fab0e293264109d52ac72df0be71e8d3ffc2abf4729d7798.bin",
+                      "sha256":  "276add5a5435ff73fab0e293264109d52ac72df0be71e8d3ffc2abf4729d7798",
+                      "size":  43380
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00106.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f0d60e4a328c54e6cac1c7cf73adeb57f8827357faf4034227ec66342264f567.bin",
+                      "sha256":  "f0d60e4a328c54e6cac1c7cf73adeb57f8827357faf4034227ec66342264f567",
+                      "size":  44393
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00107.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/4dca73cbc4e4762b50115e068994bad3ec656a111a09b3c2086aa8345219a727.bin",
+                      "sha256":  "4dca73cbc4e4762b50115e068994bad3ec656a111a09b3c2086aa8345219a727",
+                      "size":  43576
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00108.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/1760ebcfde01fb32d9ece86da6a0db1ec9e123e017a66a89baff03fd9997dbd4.bin",
+                      "sha256":  "1760ebcfde01fb32d9ece86da6a0db1ec9e123e017a66a89baff03fd9997dbd4",
+                      "size":  44809
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00109.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/48fb4ad3719070f17438956074bd7199bc4f1380c7c4e60c2a4596aae46370cb.bin",
+                      "sha256":  "48fb4ad3719070f17438956074bd7199bc4f1380c7c4e60c2a4596aae46370cb",
+                      "size":  44042
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00110.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3e402d9ef61a465c6c15cfed91bcc08106189e24e461dca666943dab0de85acd.bin",
+                      "sha256":  "3e402d9ef61a465c6c15cfed91bcc08106189e24e461dca666943dab0de85acd",
+                      "size":  45158
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00111.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8e877d450246576e9d0df66bcf2b1f09286da065a3978c09768c6d464a63ce8f.bin",
+                      "sha256":  "8e877d450246576e9d0df66bcf2b1f09286da065a3978c09768c6d464a63ce8f",
+                      "size":  44393
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00112.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a19b7e877e738f8dff4415a0c0a33fd9355875f4a8890b0cd27338ec48f1de36.bin",
+                      "sha256":  "a19b7e877e738f8dff4415a0c0a33fd9355875f4a8890b0cd27338ec48f1de36",
+                      "size":  45335
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00113.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/c9e2266d8024101bda6b48759189b3654a91c66c4449271e025652744dc6490c.bin",
+                      "sha256":  "c9e2266d8024101bda6b48759189b3654a91c66c4449271e025652744dc6490c",
+                      "size":  44684
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00114.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/039aa60a7d6dad55379def1704113d3c51d9b66f0b7b3e993902376d92d33ecc.bin",
+                      "sha256":  "039aa60a7d6dad55379def1704113d3c51d9b66f0b7b3e993902376d92d33ecc",
+                      "size":  45773
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00115.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/2379e5b61cbc2cc34fa4fa7fc6f4c1273f96039b89e63f1aadd12fa07901b9cf.bin",
+                      "sha256":  "2379e5b61cbc2cc34fa4fa7fc6f4c1273f96039b89e63f1aadd12fa07901b9cf",
+                      "size":  45041
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00116.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/4728d7a0e491a43c58f93d56f8cfcac2e70846d60f7eef18525d4b0e2793fcd3.bin",
+                      "sha256":  "4728d7a0e491a43c58f93d56f8cfcac2e70846d60f7eef18525d4b0e2793fcd3",
+                      "size":  46043
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00117.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/584aaf9cd9eb0e984c1451da7873ddc7f9d1305a060258600573090830ce3b6c.bin",
+                      "sha256":  "584aaf9cd9eb0e984c1451da7873ddc7f9d1305a060258600573090830ce3b6c",
+                      "size":  45385
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00118.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/98688d2ce1ef1f991787e9169feb6e3ab3100bf549bb3789251cab37c1925605.bin",
+                      "sha256":  "98688d2ce1ef1f991787e9169feb6e3ab3100bf549bb3789251cab37c1925605",
+                      "size":  46309
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00119.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/67f39cb8e3b856cd116cce793ad53900751f18e4c1f4025782abf7f9820d1bd5.bin",
+                      "sha256":  "67f39cb8e3b856cd116cce793ad53900751f18e4c1f4025782abf7f9820d1bd5",
+                      "size":  45269
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00120.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9730a274184503561619f9341a6188fbe6161597f9d5a8fff58eb47038efcb1b.bin",
+                      "sha256":  "9730a274184503561619f9341a6188fbe6161597f9d5a8fff58eb47038efcb1b",
+                      "size":  46136
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00121.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/500b6d58b74f1be94f7243c7988bdea2a9d5aebc2e240cd0b4e6b4921cc658ef.bin",
+                      "sha256":  "500b6d58b74f1be94f7243c7988bdea2a9d5aebc2e240cd0b4e6b4921cc658ef",
+                      "size":  46145
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00122.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/89c5ace28240e4761b504137f1c15f3b54191618d8f290cc2c959162d187f2e8.bin",
+                      "sha256":  "89c5ace28240e4761b504137f1c15f3b54191618d8f290cc2c959162d187f2e8",
+                      "size":  45943
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00123.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/77f4719d1fb3b8843e2c9d1e0d5774cc1355a0534d75847b4bf527e1ed51b9dd.bin",
+                      "sha256":  "77f4719d1fb3b8843e2c9d1e0d5774cc1355a0534d75847b4bf527e1ed51b9dd",
+                      "size":  44964
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00124.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/26253d0d5b096e585d99f8f770f4b2a4780ade834f37390a0cde09560eeb051b.bin",
+                      "sha256":  "26253d0d5b096e585d99f8f770f4b2a4780ade834f37390a0cde09560eeb051b",
+                      "size":  46011
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00125.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/79492c286d44d80802a9c60cd2899b87064d086921831fbd3f913a83ead9bb75.bin",
+                      "sha256":  "79492c286d44d80802a9c60cd2899b87064d086921831fbd3f913a83ead9bb75",
+                      "size":  45538
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00126.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/12efde266be2fd620200b72bc7b01f4d2555a09055e5297ab23fdff9706f8f54.bin",
+                      "sha256":  "12efde266be2fd620200b72bc7b01f4d2555a09055e5297ab23fdff9706f8f54",
+                      "size":  47210
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00127.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/36b4fa95447cad108714cb85071030a4d9cf02d7e672cb6b96a4e2a8429e13c8.bin",
+                      "sha256":  "36b4fa95447cad108714cb85071030a4d9cf02d7e672cb6b96a4e2a8429e13c8",
+                      "size":  46419
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00128.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/1b56de735424d47e318253f775d8b51dc306ecb185ccfda040c38fea019ccf4e.bin",
+                      "sha256":  "1b56de735424d47e318253f775d8b51dc306ecb185ccfda040c38fea019ccf4e",
+                      "size":  47550
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00129.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/c6ef906d653246c1026228ed4beb822728a262b0f324d1cd44642ecd38367788.bin",
+                      "sha256":  "c6ef906d653246c1026228ed4beb822728a262b0f324d1cd44642ecd38367788",
+                      "size":  47131
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00130.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/7a8585c23a945414bc3891875daf1f19db55498d58d8adbd55be736f2b3a8d25.bin",
+                      "sha256":  "7a8585c23a945414bc3891875daf1f19db55498d58d8adbd55be736f2b3a8d25",
+                      "size":  47453
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00131.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b80649cea5d601ce6277e7c4d3b3006c60e32a789ccedba55aaea9eca39f44f5.bin",
+                      "sha256":  "b80649cea5d601ce6277e7c4d3b3006c60e32a789ccedba55aaea9eca39f44f5",
+                      "size":  46716
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00132.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ec8373d8084ec3c2bff3d17fe4fd1c142faa914255a630eb556aa5dd188a31f9.bin",
+                      "sha256":  "ec8373d8084ec3c2bff3d17fe4fd1c142faa914255a630eb556aa5dd188a31f9",
+                      "size":  47614
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00133.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/bcc5529890e07c01a57c5b801f1102cc4a9121bc2521dae7328b7c85e9d71cf5.bin",
+                      "sha256":  "bcc5529890e07c01a57c5b801f1102cc4a9121bc2521dae7328b7c85e9d71cf5",
+                      "size":  46869
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00134.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/2cc90959b3d7009238695a37dc282babfec01dfbe15d14c6f73e5b19e0701c04.bin",
+                      "sha256":  "2cc90959b3d7009238695a37dc282babfec01dfbe15d14c6f73e5b19e0701c04",
+                      "size":  48007
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00135.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ef04e6f86c9a381dc4f569c85d5bbe7f44e604821ffb51bd6bda86cb0736b35d.bin",
+                      "sha256":  "ef04e6f86c9a381dc4f569c85d5bbe7f44e604821ffb51bd6bda86cb0736b35d",
+                      "size":  47253
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00136.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/4a92260b2a89b3e1564633f4e1e3a37cb9da7f6450ca5630ec3ef60e691cd5ec.bin",
+                      "sha256":  "4a92260b2a89b3e1564633f4e1e3a37cb9da7f6450ca5630ec3ef60e691cd5ec",
+                      "size":  48227
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00137.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8076008d12642a19d1d99055d8d1879713bf49d621287e2a5f9667bb904e55f0.bin",
+                      "sha256":  "8076008d12642a19d1d99055d8d1879713bf49d621287e2a5f9667bb904e55f0",
+                      "size":  47622
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00138.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/5083cad64324b28548ea9534648eedbfcda1d08f28f6e40d08934a2494914ad5.bin",
+                      "sha256":  "5083cad64324b28548ea9534648eedbfcda1d08f28f6e40d08934a2494914ad5",
+                      "size":  48647
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00139.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/de28141d0a253ad9a667f8751cfa619a01194ffb0e7a954398bd66b02886de2f.bin",
+                      "sha256":  "de28141d0a253ad9a667f8751cfa619a01194ffb0e7a954398bd66b02886de2f",
+                      "size":  47735
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00140.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/682e0438e744a93819cf9ac47d52cd82a624d4d4a379dfc082764ddb7bd33210.bin",
+                      "sha256":  "682e0438e744a93819cf9ac47d52cd82a624d4d4a379dfc082764ddb7bd33210",
+                      "size":  48613
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00141.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/dd696c3d1153efa4f0616edc8fecd70484a0329ae5d69649937d4efae9baba0e.bin",
+                      "sha256":  "dd696c3d1153efa4f0616edc8fecd70484a0329ae5d69649937d4efae9baba0e",
+                      "size":  47481
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00142.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ad59d5ea88e9ef668bb7ff9da75f7768e56d640dde9f55f043150c180a94d797.bin",
+                      "sha256":  "ad59d5ea88e9ef668bb7ff9da75f7768e56d640dde9f55f043150c180a94d797",
+                      "size":  48582
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00143.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/677aac700f4df7946529ea95f5dea25abbac62cfbd8f76392a0532f2ef2e6ee9.bin",
+                      "sha256":  "677aac700f4df7946529ea95f5dea25abbac62cfbd8f76392a0532f2ef2e6ee9",
+                      "size":  47536
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00144.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a3c0ac8d6efac2cd34ec2de54ef6536eae9216205aa8dcb942cb7f189deefa7c.bin",
+                      "sha256":  "a3c0ac8d6efac2cd34ec2de54ef6536eae9216205aa8dcb942cb7f189deefa7c",
+                      "size":  48250
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00145.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e68b562932c185fc7ddb0ec3371d2fcb57ed1d1c139fca03bbe0b33407c0491d.bin",
+                      "sha256":  "e68b562932c185fc7ddb0ec3371d2fcb57ed1d1c139fca03bbe0b33407c0491d",
+                      "size":  48180
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00146.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8ca4c42b1b996be31205137386127f7e13fe2f66e160fc528ef5f22d7dde2774.bin",
+                      "sha256":  "8ca4c42b1b996be31205137386127f7e13fe2f66e160fc528ef5f22d7dde2774",
+                      "size":  48744
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00147.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/60b199b1353ce39cef5e212634440ed2b755b22f00b4b30a3c46aa4e39afe76a.bin",
+                      "sha256":  "60b199b1353ce39cef5e212634440ed2b755b22f00b4b30a3c46aa4e39afe76a",
+                      "size":  47783
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00148.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6eea131494e969b7cbfd7320a91b2ad57cfb4252f221edb448693d1f4f251131.bin",
+                      "sha256":  "6eea131494e969b7cbfd7320a91b2ad57cfb4252f221edb448693d1f4f251131",
+                      "size":  48705
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00149.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6d280f5d09f1db09f19fbdf952fbf498087a2083a526e6d68b41e3e4f0af61d3.bin",
+                      "sha256":  "6d280f5d09f1db09f19fbdf952fbf498087a2083a526e6d68b41e3e4f0af61d3",
+                      "size":  48159
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00150.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/5e16fbccf34d1379169585becff29b11a9ee2806dfb70bbad90b03045e51aa71.bin",
+                      "sha256":  "5e16fbccf34d1379169585becff29b11a9ee2806dfb70bbad90b03045e51aa71",
+                      "size":  49118
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00151.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/27fb4cbae6f1ba25a0c79d38d90ff5c7eff12c71e95bc21eb3c7ccc7a8066d4a.bin",
+                      "sha256":  "27fb4cbae6f1ba25a0c79d38d90ff5c7eff12c71e95bc21eb3c7ccc7a8066d4a",
+                      "size":  48589
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00152.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/58e673362df40a77cc47a07dd4a0f5c262bb170ac707b3349b3456e54a6fc37a.bin",
+                      "sha256":  "58e673362df40a77cc47a07dd4a0f5c262bb170ac707b3349b3456e54a6fc37a",
+                      "size":  49234
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00153.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/318f41726e32b70d1a23d158bab67a0840d8a20629f6521d47eb3a93eb4f184e.bin",
+                      "sha256":  "318f41726e32b70d1a23d158bab67a0840d8a20629f6521d47eb3a93eb4f184e",
+                      "size":  49339
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00154.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/4c44b164d8f8c9624bcfe8eb309263cac7c75dd5b2f2c4783b2e6dfb299e15d6.bin",
+                      "sha256":  "4c44b164d8f8c9624bcfe8eb309263cac7c75dd5b2f2c4783b2e6dfb299e15d6",
+                      "size":  49879
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00155.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/335815b51fa5182d47bf69f273d32d68839392252318d783f3cb36c0112b9cc8.bin",
+                      "sha256":  "335815b51fa5182d47bf69f273d32d68839392252318d783f3cb36c0112b9cc8",
+                      "size":  50543
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00156.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/86c41d5e8d9f7ab4694169f2764a5c4516fd56df4262e0ca1f276ff118db19fa.bin",
+                      "sha256":  "86c41d5e8d9f7ab4694169f2764a5c4516fd56df4262e0ca1f276ff118db19fa",
+                      "size":  50897
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00157.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/7eea5b73c3efdc8659dc9868cb48b2e8e0c3d02733a0a421fbc3c45d1cee8e65.bin",
+                      "sha256":  "7eea5b73c3efdc8659dc9868cb48b2e8e0c3d02733a0a421fbc3c45d1cee8e65",
+                      "size":  50837
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00158.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ff69074d314041d17dbe2bbc480313d25a025254c082fbe233fd7a9083139116.bin",
+                      "sha256":  "ff69074d314041d17dbe2bbc480313d25a025254c082fbe233fd7a9083139116",
+                      "size":  50238
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00159.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/823f61c344103ccd52e8e95d761172e9e90ce5f9222701989db14c0da7844be0.bin",
+                      "sha256":  "823f61c344103ccd52e8e95d761172e9e90ce5f9222701989db14c0da7844be0",
+                      "size":  50135
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00160.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/195a04bd5244aa85fc0a67dce43a28be856a2107fb6037afe01f59eb162ba7f3.bin",
+                      "sha256":  "195a04bd5244aa85fc0a67dce43a28be856a2107fb6037afe01f59eb162ba7f3",
+                      "size":  50659
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00161.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f883bbc385fee71dcda0a784ef3ed3cf77bb52fe413b4425c795338975365fae.bin",
+                      "sha256":  "f883bbc385fee71dcda0a784ef3ed3cf77bb52fe413b4425c795338975365fae",
+                      "size":  50226
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00162.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/95c382050584cc25320c0ff83c6a7c826470a204a8116be4a079c3aece39aaa3.bin",
+                      "sha256":  "95c382050584cc25320c0ff83c6a7c826470a204a8116be4a079c3aece39aaa3",
+                      "size":  50722
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00163.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/773d47b4d09cc3b5cc5310979b146eaf5d8e5867e5606cf1fe3e67b31cdc49f1.bin",
+                      "sha256":  "773d47b4d09cc3b5cc5310979b146eaf5d8e5867e5606cf1fe3e67b31cdc49f1",
+                      "size":  50671
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00164.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/efc00f1f720993ef5d82973354d78223f15cfd251edffcf285686836acddf417.bin",
+                      "sha256":  "efc00f1f720993ef5d82973354d78223f15cfd251edffcf285686836acddf417",
+                      "size":  51193
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00165.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/52452bfd991f70053c1843ac1ea14cf60c726ba2154102aedacfc65e4cdf9b90.bin",
+                      "sha256":  "52452bfd991f70053c1843ac1ea14cf60c726ba2154102aedacfc65e4cdf9b90",
+                      "size":  51192
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00166.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/824a1dc3e50c43d684cf18ed1e2e1477739e3ec0bedc411d146c45349429fae3.bin",
+                      "sha256":  "824a1dc3e50c43d684cf18ed1e2e1477739e3ec0bedc411d146c45349429fae3",
+                      "size":  51512
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00167.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9182b78ebd7f0baa6c54a3389d169b6d7e68d07a0c0b66a2f444f05008a404d5.bin",
+                      "sha256":  "9182b78ebd7f0baa6c54a3389d169b6d7e68d07a0c0b66a2f444f05008a404d5",
+                      "size":  51371
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00168.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/651b7a3a4011b614a9d2d50900ebabb4c72f5aae9e6e4a13917480c859067734.bin",
+                      "sha256":  "651b7a3a4011b614a9d2d50900ebabb4c72f5aae9e6e4a13917480c859067734",
+                      "size":  51994
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00169.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/fd17f9434bcedf50301c247133998e3f43cec774863f83adf02c1152d0d7c71e.bin",
+                      "sha256":  "fd17f9434bcedf50301c247133998e3f43cec774863f83adf02c1152d0d7c71e",
+                      "size":  51650
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00170.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/113b3a1c4db95d29a90c32d8c568fa334e563d017545c3b98aecece05f65e44a.bin",
+                      "sha256":  "113b3a1c4db95d29a90c32d8c568fa334e563d017545c3b98aecece05f65e44a",
+                      "size":  50713
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00171.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e21c21ec7fc8a4f8429329f20d81e77498713c93ed31d05d1a75a8514dad5d2d.bin",
+                      "sha256":  "e21c21ec7fc8a4f8429329f20d81e77498713c93ed31d05d1a75a8514dad5d2d",
+                      "size":  50481
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00172.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/362af84e1ee5d011add2f47ebdea24508df01bc04f6869c50be51d77da650731.bin",
+                      "sha256":  "362af84e1ee5d011add2f47ebdea24508df01bc04f6869c50be51d77da650731",
+                      "size":  50690
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00173.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8cc2339062558c74e396761a07c27af1e27e0a8a7ce8d2a69f377c8fb1d121ec.bin",
+                      "sha256":  "8cc2339062558c74e396761a07c27af1e27e0a8a7ce8d2a69f377c8fb1d121ec",
+                      "size":  50403
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00174.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/86a585d15f63745e5acb0ac8d199ecc545e3e4b24fe1fd1808c34d49dc28bf8e.bin",
+                      "sha256":  "86a585d15f63745e5acb0ac8d199ecc545e3e4b24fe1fd1808c34d49dc28bf8e",
+                      "size":  50698
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00175.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/80540c7f2e6aa77efb5adce638ef95e093fd8ec68b6f58b915cb333e461419e7.bin",
+                      "sha256":  "80540c7f2e6aa77efb5adce638ef95e093fd8ec68b6f58b915cb333e461419e7",
+                      "size":  50414
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00176.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3930130b6a7dfb9c09181c8f66f4e49d0a13c6fa6b433fa3c1dbe219d6a740c0.bin",
+                      "sha256":  "3930130b6a7dfb9c09181c8f66f4e49d0a13c6fa6b433fa3c1dbe219d6a740c0",
+                      "size":  50578
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00177.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/5541eb3f6fa3d5f495c53a3d299aabf7220f997888d10961469392b39fb6fd36.bin",
+                      "sha256":  "5541eb3f6fa3d5f495c53a3d299aabf7220f997888d10961469392b39fb6fd36",
+                      "size":  50560
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00178.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3c96893b81ad7f00a3ff987c82eb31e42e6db8f053626355440fcc8742028d9a.bin",
+                      "sha256":  "3c96893b81ad7f00a3ff987c82eb31e42e6db8f053626355440fcc8742028d9a",
+                      "size":  51064
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00179.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/bf02332e744b3751153d79ddd18866a4b79674400c77dc575545ef28b0e84daf.bin",
+                      "sha256":  "bf02332e744b3751153d79ddd18866a4b79674400c77dc575545ef28b0e84daf",
+                      "size":  51242
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00180.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d696c6e29ac2ab02f5c7f0716dcaaac7d63bf7c7a1bd29409d788738b2278057.bin",
+                      "sha256":  "d696c6e29ac2ab02f5c7f0716dcaaac7d63bf7c7a1bd29409d788738b2278057",
+                      "size":  57973
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00181.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/31a1fa71d6e252ac90f097322c2d8c0f24b24b0571502c25efbcd031cbf8ba6a.bin",
+                      "sha256":  "31a1fa71d6e252ac90f097322c2d8c0f24b24b0571502c25efbcd031cbf8ba6a",
+                      "size":  57054
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00182.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8b74802da1bfc1967e28d6d71dbc46ebba663305c30760e7d3a48c219c7cd2df.bin",
+                      "sha256":  "8b74802da1bfc1967e28d6d71dbc46ebba663305c30760e7d3a48c219c7cd2df",
+                      "size":  57858
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00183.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6f9472e2f33dbd4d729dd94f93abf76cbebf9764bad4dd7b0810e4ef78feaca8.bin",
+                      "sha256":  "6f9472e2f33dbd4d729dd94f93abf76cbebf9764bad4dd7b0810e4ef78feaca8",
+                      "size":  56571
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00184.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ba78f9453960c1d17afc4c6f22e8ef7114b02fc4423e8e71e496bc33667eebf0.bin",
+                      "sha256":  "ba78f9453960c1d17afc4c6f22e8ef7114b02fc4423e8e71e496bc33667eebf0",
+                      "size":  58584
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00185.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/830ff229ced601181ea5edcd6589ba17d4dad06a8266da7a6790f6dae2ef3224.bin",
+                      "sha256":  "830ff229ced601181ea5edcd6589ba17d4dad06a8266da7a6790f6dae2ef3224",
+                      "size":  56471
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00186.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9053cfb7e811c12949cb734adce18fa565e40902fcc950bd8fefbfcdcd2932b5.bin",
+                      "sha256":  "9053cfb7e811c12949cb734adce18fa565e40902fcc950bd8fefbfcdcd2932b5",
+                      "size":  57339
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00187.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3cc0f96077a8588230ec45bff3bf8fe3fcf3dcd78b86fae57208ceda8475b0fe.bin",
+                      "sha256":  "3cc0f96077a8588230ec45bff3bf8fe3fcf3dcd78b86fae57208ceda8475b0fe",
+                      "size":  55746
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00188.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/451ceced0f8dbedb1bdf1185dcc80d500cc7e3aa6df32541e6204fcadba62ccd.bin",
+                      "sha256":  "451ceced0f8dbedb1bdf1185dcc80d500cc7e3aa6df32541e6204fcadba62ccd",
+                      "size":  57396
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00189.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b40b1a5dd191e7e614c043f9791e8efc4f29d7bc461445b3d9c0fe84c5029c58.bin",
+                      "sha256":  "b40b1a5dd191e7e614c043f9791e8efc4f29d7bc461445b3d9c0fe84c5029c58",
+                      "size":  54784
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00190.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/38fc646a234191143737b2409ee6a612d8595fcad81869b8921424b4cfeb2858.bin",
+                      "sha256":  "38fc646a234191143737b2409ee6a612d8595fcad81869b8921424b4cfeb2858",
+                      "size":  55228
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00191.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/77a2fea277c76e774b94b8f7ec81180605f8a6dfac9a3b6112d6dcb67747b464.bin",
+                      "sha256":  "77a2fea277c76e774b94b8f7ec81180605f8a6dfac9a3b6112d6dcb67747b464",
+                      "size":  53232
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00192.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/83963ffa5cb64b17352eefbb01bd800b3d9440a7df25af3e21109add3ddfd0d1.bin",
+                      "sha256":  "83963ffa5cb64b17352eefbb01bd800b3d9440a7df25af3e21109add3ddfd0d1",
+                      "size":  54283
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00193.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/cc9111ec8541543fb9851a1687e5df8912f09ceab6bef091352081b724016277.bin",
+                      "sha256":  "cc9111ec8541543fb9851a1687e5df8912f09ceab6bef091352081b724016277",
+                      "size":  52896
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00194.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/4fe5f422ea09ec21e0817d13f60f7b87fa979179d5da2853203d8dcb90e62e56.bin",
+                      "sha256":  "4fe5f422ea09ec21e0817d13f60f7b87fa979179d5da2853203d8dcb90e62e56",
+                      "size":  51419
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00195.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9d3a0ccc05666f12ce8c04664a0cdfef6691765f68be16c7f832e451970dc164.bin",
+                      "sha256":  "9d3a0ccc05666f12ce8c04664a0cdfef6691765f68be16c7f832e451970dc164",
+                      "size":  50400
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00196.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/0ff01726b7736354d62f3dd3864d1371a710cc873430873cc823a245cd8ed060.bin",
+                      "sha256":  "0ff01726b7736354d62f3dd3864d1371a710cc873430873cc823a245cd8ed060",
+                      "size":  51251
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00197.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/54ea14fcf755a7abf079ce510e1dcbf86641c34cdd1e8c70bba7136b1e51c39d.bin",
+                      "sha256":  "54ea14fcf755a7abf079ce510e1dcbf86641c34cdd1e8c70bba7136b1e51c39d",
+                      "size":  49297
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00198.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3f6a4475238cef81bc12384be665da77573eea0f3bba25f3a2251155089317a0.bin",
+                      "sha256":  "3f6a4475238cef81bc12384be665da77573eea0f3bba25f3a2251155089317a0",
+                      "size":  49394
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00199.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/da327001c91cd20ab95ca8e658aa25035b1754fa603e48f1e0007e2b82891fe6.bin",
+                      "sha256":  "da327001c91cd20ab95ca8e658aa25035b1754fa603e48f1e0007e2b82891fe6",
+                      "size":  47831
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00200.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f1659d2467abd90c973acd31edffaf6bcbc179b51b1b68d932e44fd205081455.bin",
+                      "sha256":  "f1659d2467abd90c973acd31edffaf6bcbc179b51b1b68d932e44fd205081455",
+                      "size":  48436
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00201.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f8ee904db6a883d07637970d26d52556ff8397a1e3731a56c639c5ffa5d34bd9.bin",
+                      "sha256":  "f8ee904db6a883d07637970d26d52556ff8397a1e3731a56c639c5ffa5d34bd9",
+                      "size":  46430
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00202.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/cae144a6a23188f96d1282b604cf16d41174cd9ead7e05bc71b32af7d29a0597.bin",
+                      "sha256":  "cae144a6a23188f96d1282b604cf16d41174cd9ead7e05bc71b32af7d29a0597",
+                      "size":  46561
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00203.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e568639d4e971a57d0c98bd930a93f79a77b75ff0c51f3171dd8428303263300.bin",
+                      "sha256":  "e568639d4e971a57d0c98bd930a93f79a77b75ff0c51f3171dd8428303263300",
+                      "size":  45340
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00204.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/35782bfb3eed594aad96af18c3322b1a2b2ccb4e06c6cc4a1c73a72f23c2c24b.bin",
+                      "sha256":  "35782bfb3eed594aad96af18c3322b1a2b2ccb4e06c6cc4a1c73a72f23c2c24b",
+                      "size":  45923
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00205.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/432be5732ee4349bd7b6ec4224a5df3a1fffaa7113dc6b722c12062dd3f0c5e3.bin",
+                      "sha256":  "432be5732ee4349bd7b6ec4224a5df3a1fffaa7113dc6b722c12062dd3f0c5e3",
+                      "size":  45734
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00206.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/089ba337a85d9e83df96b073dcac8fd3579aae20429cd0eaa8599ea011d2fc01.bin",
+                      "sha256":  "089ba337a85d9e83df96b073dcac8fd3579aae20429cd0eaa8599ea011d2fc01",
+                      "size":  45282
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00207.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/dfb35f46f74a8c76a4920b68d81528efad633b7c676ed868b183475896c72eb2.bin",
+                      "sha256":  "dfb35f46f74a8c76a4920b68d81528efad633b7c676ed868b183475896c72eb2",
+                      "size":  44012
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00208.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/52e5afd68b02e2dd2b3c73cc42bbafce2240634584406b42d1fee16080b7befb.bin",
+                      "sha256":  "52e5afd68b02e2dd2b3c73cc42bbafce2240634584406b42d1fee16080b7befb",
+                      "size":  44760
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00209.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/668f4b591481addfc36ef2a87534d27a37587d5bcf8ec598e0cef26b56112a70.bin",
+                      "sha256":  "668f4b591481addfc36ef2a87534d27a37587d5bcf8ec598e0cef26b56112a70",
+                      "size":  43287
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00210.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/db3a972ac12e506c6c9763b32742f45a47a3e67c0348d8d4d2bf040a8e61dff3.bin",
+                      "sha256":  "db3a972ac12e506c6c9763b32742f45a47a3e67c0348d8d4d2bf040a8e61dff3",
+                      "size":  43063
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00211.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/047c5c00666ee8ff16c40582af558c79071312216a65562af5988d76a9d4bd22.bin",
+                      "sha256":  "047c5c00666ee8ff16c40582af558c79071312216a65562af5988d76a9d4bd22",
+                      "size":  41503
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00212.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e2d547aaf88399ef336ff62032cda75dc7df66e19eb362314f8cfbbdd5574766.bin",
+                      "sha256":  "e2d547aaf88399ef336ff62032cda75dc7df66e19eb362314f8cfbbdd5574766",
+                      "size":  41924
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00213.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a996ca8293aa0a913b6d925c72d97d000930d05d8d7c3cfd9bfb03616b9a9ac6.bin",
+                      "sha256":  "a996ca8293aa0a913b6d925c72d97d000930d05d8d7c3cfd9bfb03616b9a9ac6",
+                      "size":  40519
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00214.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/c0a89981ba9a6349f1c1fa3f4d8656c2a27681be148b3dea828af03d326f2f21.bin",
+                      "sha256":  "c0a89981ba9a6349f1c1fa3f4d8656c2a27681be148b3dea828af03d326f2f21",
+                      "size":  40805
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00215.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/dd567dbc9d428ac5c789beb5603e0e9ce17b1e54ab51cf3d28ec7dd76111736d.bin",
+                      "sha256":  "dd567dbc9d428ac5c789beb5603e0e9ce17b1e54ab51cf3d28ec7dd76111736d",
+                      "size":  39814
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00216.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/87b6ed914097f97659607ed0e894dcb76b6e11e3cdeb9068e2bed6ee254c54e5.bin",
+                      "sha256":  "87b6ed914097f97659607ed0e894dcb76b6e11e3cdeb9068e2bed6ee254c54e5",
+                      "size":  40333
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00217.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a4b83f5d9c2c4a2c3a012373fc01da6bfbbe73f257e13fda2854aadb2aa15982.bin",
+                      "sha256":  "a4b83f5d9c2c4a2c3a012373fc01da6bfbbe73f257e13fda2854aadb2aa15982",
+                      "size":  39914
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00218.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/87c36d837a06a7763ed7db79e9c932ce26b893afc34903f21e1cad7622ac8a55.bin",
+                      "sha256":  "87c36d837a06a7763ed7db79e9c932ce26b893afc34903f21e1cad7622ac8a55",
+                      "size":  38559
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00219.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b17d66bd747ae2d901c4308fcbfb57da002a63aec797a6dc43b1d9a2361259d9.bin",
+                      "sha256":  "b17d66bd747ae2d901c4308fcbfb57da002a63aec797a6dc43b1d9a2361259d9",
+                      "size":  37781
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00220.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/143ade781b81564f5a3e026380f868fb03b315c04b89a7c228e32cde9c9b77c7.bin",
+                      "sha256":  "143ade781b81564f5a3e026380f868fb03b315c04b89a7c228e32cde9c9b77c7",
+                      "size":  38134
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00221.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f794ffa5bfd8e10a99bd2e0e79147e445674456fb08da5439ecb8b20a42dcbce.bin",
+                      "sha256":  "f794ffa5bfd8e10a99bd2e0e79147e445674456fb08da5439ecb8b20a42dcbce",
+                      "size":  37210
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00222.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/bfed440956c6c63294a5f19450865632bd1d23f24043d44a5a30f3c3f1d87c2e.bin",
+                      "sha256":  "bfed440956c6c63294a5f19450865632bd1d23f24043d44a5a30f3c3f1d87c2e",
+                      "size":  37259
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00223.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/00bb5e10f1c90ae9e5ddeaaa434df70ad635d4bc6f8b77f616f8caf56a6fa457.bin",
+                      "sha256":  "00bb5e10f1c90ae9e5ddeaaa434df70ad635d4bc6f8b77f616f8caf56a6fa457",
+                      "size":  36327
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00224.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/16dd8ae540880a274c2be4dc5d45d3500a396dda0438413b69a1599f9ba1f4eb.bin",
+                      "sha256":  "16dd8ae540880a274c2be4dc5d45d3500a396dda0438413b69a1599f9ba1f4eb",
+                      "size":  36368
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00225.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/06beee95ce279dd97f73df8bfcb8be0e6e8177f877e7703577d5ae9cae7cee72.bin",
+                      "sha256":  "06beee95ce279dd97f73df8bfcb8be0e6e8177f877e7703577d5ae9cae7cee72",
+                      "size":  35349
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00226.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/dd23aba040b73d43259af1159757c2b8cc40cf1ad8f797b82fbdce3d4d922b73.bin",
+                      "sha256":  "dd23aba040b73d43259af1159757c2b8cc40cf1ad8f797b82fbdce3d4d922b73",
+                      "size":  33049
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00227.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/c0b6f9e0c5c3ed0b6a0e6572652acd593263a3fca79b988c561e5e32c98dd3c3.bin",
+                      "sha256":  "c0b6f9e0c5c3ed0b6a0e6572652acd593263a3fca79b988c561e5e32c98dd3c3",
+                      "size":  31945
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00228.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/df6f19c8f483ecda4d0d8e4f2c7a6f0e7058e0ce384c4c1b8caf1c6f17719ec5.bin",
+                      "sha256":  "df6f19c8f483ecda4d0d8e4f2c7a6f0e7058e0ce384c4c1b8caf1c6f17719ec5",
+                      "size":  31897
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00229.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/b4adbae030f559de8c30980ce15a8a4936cf2a767e210e48614eb5b4ae51f720.bin",
+                      "sha256":  "b4adbae030f559de8c30980ce15a8a4936cf2a767e210e48614eb5b4ae51f720",
+                      "size":  30574
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00230.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9b6d4b795455dc0f2caf8db3f606c52e00404734ce28576c963cae8d521d2071.bin",
+                      "sha256":  "9b6d4b795455dc0f2caf8db3f606c52e00404734ce28576c963cae8d521d2071",
+                      "size":  30321
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00231.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/20297e4f80c017ccdc3304770dbead98dc87f0be05fa627532d37cc5842aa368.bin",
+                      "sha256":  "20297e4f80c017ccdc3304770dbead98dc87f0be05fa627532d37cc5842aa368",
+                      "size":  29110
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00232.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3673af00aa72e273164f704d7f6d2a559220cd4cf54b7279475fee9f7ca0f62e.bin",
+                      "sha256":  "3673af00aa72e273164f704d7f6d2a559220cd4cf54b7279475fee9f7ca0f62e",
+                      "size":  29071
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00233.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/73bfab894140181f3a481557e72bf2275756896ff35ffc44ac577f5a22b80bc0.bin",
+                      "sha256":  "73bfab894140181f3a481557e72bf2275756896ff35ffc44ac577f5a22b80bc0",
+                      "size":  28380
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00234.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/06714923f264a6e911feba9da9508b3a7f090535476e0d75def3037d6c138232.bin",
+                      "sha256":  "06714923f264a6e911feba9da9508b3a7f090535476e0d75def3037d6c138232",
+                      "size":  28175
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00235.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8c491cbdbe23be1e73c0dca9ff6bbe85d043167003b892b01da37fd64f3d7dba.bin",
+                      "sha256":  "8c491cbdbe23be1e73c0dca9ff6bbe85d043167003b892b01da37fd64f3d7dba",
+                      "size":  27546
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00236.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/9514e035e52b6bdf0beff53e56b6202566ad3c9df4112525f7b93451d7fc33e6.bin",
+                      "sha256":  "9514e035e52b6bdf0beff53e56b6202566ad3c9df4112525f7b93451d7fc33e6",
+                      "size":  27494
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00237.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/fd990705275d704c916ca4c211e65694d27aea86e799fae6dd91a99ff943a744.bin",
+                      "sha256":  "fd990705275d704c916ca4c211e65694d27aea86e799fae6dd91a99ff943a744",
+                      "size":  26776
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00238.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/63cc27695ef849b47bfbb3368ee76cd13257cdfda9949ac23f5d342b9b5dd6ae.bin",
+                      "sha256":  "63cc27695ef849b47bfbb3368ee76cd13257cdfda9949ac23f5d342b9b5dd6ae",
+                      "size":  26849
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00239.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/37b040322b70605ef1fbf987e839f9b3d263649aa088234905505112bd760157.bin",
+                      "sha256":  "37b040322b70605ef1fbf987e839f9b3d263649aa088234905505112bd760157",
+                      "size":  26103
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00240.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8aac35a604dfdf962f71dbef0a3408265c75fec51ed618f946b3e4ebc46b583d.bin",
+                      "sha256":  "8aac35a604dfdf962f71dbef0a3408265c75fec51ed618f946b3e4ebc46b583d",
+                      "size":  26303
+                  },
+                  {
+                      "path":  "config/warfaremapskits/frames/00241.jpg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8c8586a386974aae1cd78854e434cdffeee740c6ec74649ebe0364816c71738c.bin",
+                      "sha256":  "8c8586a386974aae1cd78854e434cdffeee740c6ec74649ebe0364816c71738c",
+                      "size":  25989
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voice/README.txt",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/1391a8a7700912b37870d39fe177efa94e87e448556b1d70f8230c92d4467af6.bin",
+                      "sha256":  "1391a8a7700912b37870d39fe177efa94e87e448556b1d70f8230c92d4467af6",
+                      "size":  394
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voice/wild/scav-story-2.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e7cfe315227001153fcced915ac2f82e74feec24c625921155724274d7f02d2b.bin",
+                      "sha256":  "e7cfe315227001153fcced915ac2f82e74feec24c625921155724274d7f02d2b",
+                      "size":  74210
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voice/wild/tarkov-scav-laughing-2.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/820322382ea00703021bae670ced3656c4ac260e99a8a765f2340d5a3fb32f6f.bin",
+                      "sha256":  "820322382ea00703021bae670ced3656c4ac260e99a8a765f2340d5a3fb32f6f",
+                      "size":  20800
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voice/wild/tarkov-scav-normalnyy-2_mnzlkhh.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/80c5bc4e8b930b8ae84d693ad35a81e572ad4f954c2cd49f012aa2782dbb9a16.bin",
+                      "sha256":  "80c5bc4e8b930b8ae84d693ad35a81e572ad4f954c2cd49f012aa2782dbb9a16",
+                      "size":  20667
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voice/wild/ай ай.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ef4671fbc4c6eff59be583332a6d7b1dc18208bd51823d953553d81c0340e1f8.bin",
+                      "sha256":  "ef4671fbc4c6eff59be583332a6d7b1dc18208bd51823d953553d81c0340e1f8",
+                      "size":  40582
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voice/wild/бирец.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/47d97fe3227f24efacb39e7b18b42bd7df01c0956ef9efbc22ddc6c722a8bb90.bin",
+                      "sha256":  "47d97fe3227f24efacb39e7b18b42bd7df01c0956ef9efbc22ddc6c722a8bb90",
+                      "size":  27792
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voice/wild/вижу пидо....ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/253a60eb330d02155abb0279e9c015a9e67099d71ff79d18c1975074d15ad54e.bin",
+                      "sha256":  "253a60eb330d02155abb0279e9c015a9e67099d71ff79d18c1975074d15ad54e",
+                      "size":  25171
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voice/wild/гопстоп.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a2c29c96fabefb20bd8afad46037d849edd8cc79a2b6d0f6aadd3151dd95ebd7.bin",
+                      "sha256":  "a2c29c96fabefb20bd8afad46037d849edd8cc79a2b6d0f6aadd3151dd95ebd7",
+                      "size":  48286
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voice/wild/опачки.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f0685dcada32acb0664e94a5dcea367043e6bbbf05d2460e31ed6a6a3470e868.bin",
+                      "sha256":  "f0685dcada32acb0664e94a5dcea367043e6bbbf05d2460e31ed6a6a3470e868",
+                      "size":  17952
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voicepack/pack.mcmeta",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/166da5226f5fa763f7b01b6cf54047f7ea138cf0173030991adc1d61ff118eee.bin",
+                      "sha256":  "166da5226f5fa763f7b01b6cf54047f7ea138cf0173030991adc1d61ff118eee",
+                      "size":  63
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voicepack/assets/superbwarfare/sounds.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/878aa17856284fe48d999406658c292e5c9a838f6fc8c8981eb57b4678cbd9e2.bin",
+                      "sha256":  "878aa17856284fe48d999406658c292e5c9a838f6fc8c8981eb57b4678cbd9e2",
+                      "size":  207
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voicepack/assets/warfaremapskits/sounds/voice/wild/1.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/e7cfe315227001153fcced915ac2f82e74feec24c625921155724274d7f02d2b.bin",
+                      "sha256":  "e7cfe315227001153fcced915ac2f82e74feec24c625921155724274d7f02d2b",
+                      "size":  74210
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voicepack/assets/warfaremapskits/sounds/voice/wild/2.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/820322382ea00703021bae670ced3656c4ac260e99a8a765f2340d5a3fb32f6f.bin",
+                      "sha256":  "820322382ea00703021bae670ced3656c4ac260e99a8a765f2340d5a3fb32f6f",
+                      "size":  20800
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voicepack/assets/warfaremapskits/sounds/voice/wild/3.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/80c5bc4e8b930b8ae84d693ad35a81e572ad4f954c2cd49f012aa2782dbb9a16.bin",
+                      "sha256":  "80c5bc4e8b930b8ae84d693ad35a81e572ad4f954c2cd49f012aa2782dbb9a16",
+                      "size":  20667
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voicepack/assets/warfaremapskits/sounds/voice/wild/4.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ef4671fbc4c6eff59be583332a6d7b1dc18208bd51823d953553d81c0340e1f8.bin",
+                      "sha256":  "ef4671fbc4c6eff59be583332a6d7b1dc18208bd51823d953553d81c0340e1f8",
+                      "size":  40582
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voicepack/assets/warfaremapskits/sounds/voice/wild/5.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/47d97fe3227f24efacb39e7b18b42bd7df01c0956ef9efbc22ddc6c722a8bb90.bin",
+                      "sha256":  "47d97fe3227f24efacb39e7b18b42bd7df01c0956ef9efbc22ddc6c722a8bb90",
+                      "size":  27792
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voicepack/assets/warfaremapskits/sounds/voice/wild/6.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/253a60eb330d02155abb0279e9c015a9e67099d71ff79d18c1975074d15ad54e.bin",
+                      "sha256":  "253a60eb330d02155abb0279e9c015a9e67099d71ff79d18c1975074d15ad54e",
+                      "size":  25171
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voicepack/assets/warfaremapskits/sounds/voice/wild/7.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a2c29c96fabefb20bd8afad46037d849edd8cc79a2b6d0f6aadd3151dd95ebd7.bin",
+                      "sha256":  "a2c29c96fabefb20bd8afad46037d849edd8cc79a2b6d0f6aadd3151dd95ebd7",
+                      "size":  48286
+                  },
+                  {
+                      "path":  "config/warfaremapskits/voicepack/assets/warfaremapskits/sounds/voice/wild/8.ogg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f0685dcada32acb0664e94a5dcea367043e6bbbf05d2460e31ed6a6a3470e868.bin",
+                      "sha256":  "f0685dcada32acb0664e94a5dcea367043e6bbbf05d2460e31ed6a6a3470e868",
+                      "size":  17952
+                  },
+                  {
+                      "path":  "config/xaero/lib/client.cfg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336.bin",
+                      "sha256":  "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336",
+                      "size":  26
+                  },
+                  {
+                      "path":  "config/xaero/lib/common.cfg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2.bin",
+                      "sha256":  "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2",
+                      "size":  236
+                  },
+                  {
+                      "path":  "config/xaero/lib/profiles/default.cfg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907.bin",
+                      "sha256":  "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907",
+                      "size":  121
+                  },
+                  {
+                      "path":  "config/xaero/lib/server_profiles/default.cfg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a.bin",
+                      "sha256":  "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a",
+                      "size":  75
+                  },
+                  {
+                      "path":  "config/xaero/minimap/client.cfg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f.bin",
+                      "sha256":  "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f",
+                      "size":  235
+                  },
+                  {
+                      "path":  "config/xaero/minimap/common.cfg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0.bin",
+                      "sha256":  "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0",
+                      "size":  147
+                  },
+                  {
+                      "path":  "config/xaero/minimap/default_radar_categories_client.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3c888b22cba252e8f0a974f8c1604bc05109affbf4354ad3b16e71778c4b9774.bin",
+                      "sha256":  "3c888b22cba252e8f0a974f8c1604bc05109affbf4354ad3b16e71778c4b9774",
+                      "size":  5531
+                  },
+                  {
+                      "path":  "config/xaero/minimap/default_radar_categories_server.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd.bin",
+                      "sha256":  "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd",
+                      "size":  4597
+                  },
+                  {
+                      "path":  "config/xaero/minimap/profiles/default.cfg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/f9ce478a7263a91a9234e4b6414fce1e4b1a62968350d0557d594d1ff78bab74.bin",
+                      "sha256":  "f9ce478a7263a91a9234e4b6414fce1e4b1a62968350d0557d594d1ff78bab74",
+                      "size":  3922
+                  },
+                  {
+                      "path":  "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/3c888b22cba252e8f0a974f8c1604bc05109affbf4354ad3b16e71778c4b9774.bin",
+                      "sha256":  "3c888b22cba252e8f0a974f8c1604bc05109affbf4354ad3b16e71778c4b9774",
+                      "size":  5531
+                  },
+                  {
+                      "path":  "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6.bin",
+                      "sha256":  "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6",
+                      "size":  684
+                  },
+                  {
+                      "path":  "config/xaero/minimap/server_profiles/default.cfg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a.bin",
+                      "sha256":  "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a",
+                      "size":  75
+                  },
+                  {
+                      "path":  "config/xaero/world-map/client.cfg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d.bin",
+                      "sha256":  "d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d",
+                      "size":  521
+                  },
+                  {
+                      "path":  "config/xaero/world-map/common.cfg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d.bin",
+                      "sha256":  "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d",
+                      "size":  141
+                  },
+                  {
+                      "path":  "config/xaero/world-map/profiles/default.cfg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf.bin",
+                      "sha256":  "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf",
+                      "size":  1619
+                  },
+                  {
+                      "path":  "config/xaero/world-map/server_profiles/default.cfg",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a.bin",
+                      "sha256":  "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a",
+                      "size":  75
+                  },
+                  {
+                      "path":  "shaderpacks/Gray\u0026Black Shader 1.0.0 (1.16.5-1.7.2).zip",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/bf8f5ed30b4cfa4e993d22f69a68b5acc84f922fc61de2d03d08f11026c9973a.bin",
+                      "sha256":  "bf8f5ed30b4cfa4e993d22f69a68b5acc84f922fc61de2d03d08f11026c9973a",
+                      "size":  4069
+                  },
+                  {
+                      "path":  "shaderpacks/grayblack-shader.pw.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/8354b6f92d5e41cf5f58ce96e68b2417a16f4ec34873d9c4f2934ccf9d0ac63d.bin",
+                      "sha256":  "8354b6f92d5e41cf5f58ce96e68b2417a16f4ec34873d9c4f2934ccf9d0ac63d",
+                      "size":  1302
+                  },
+                  {
+                      "path":  "shaderpacks/Hysteria-Shaders-Universal-v1.2.1.zip",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/cfad48537a3cbd7db219e29f07b24820c80322d5df656a9d087da5f8f9fc1df2.bin",
+                      "sha256":  "cfad48537a3cbd7db219e29f07b24820c80322d5df656a9d087da5f8f9fc1df2",
+                      "size":  1578052
+                  },
+                  {
+                      "path":  "shaderpacks/hysteria-shaders.pw.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/6b8447f885cb5a18d2d615390aee1050df5b8a498d4b15f6c4d89fb7ddb0b7ca.bin",
+                      "sha256":  "6b8447f885cb5a18d2d615390aee1050df5b8a498d4b15f6c4d89fb7ddb0b7ca",
+                      "size":  1458
+                  },
+                  {
+                      "path":  "shaderpacks/Insanity-Shader-Universal-v1.650.zip",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ed0ece7500307584a7bba09a872fde39df78fcfa1b90f3e4fac36da60e96a511.bin",
+                      "sha256":  "ed0ece7500307584a7bba09a872fde39df78fcfa1b90f3e4fac36da60e96a511",
+                      "size":  1037373
+                  },
+                  {
+                      "path":  "shaderpacks/insanity-shader.pw.toml",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/578c9dd6a145f5c4217cfa72fd868c6dcb742ff81f8a80faf9f2f026d096eabb.bin",
+                      "sha256":  "578c9dd6a145f5c4217cfa72fd868c6dcb742ff81f8a80faf9f2f026d096eabb",
+                      "size":  1455
+                  }
+              ]
+}
