@@ -1,0 +1,139 @@
+WARFARE — ЛИЦЕНЗИЯ / LICENCE
+Все права защищены. All rights reserved.
+
+Copyright (c) 2026 goblin ("Warfare", warfarecraft.ru)
+
+Контакт для правообладателя / Rights holder contact:
+  goblin5.0.7532@gmail.com
+  https://boosty.to/warfarecraft
+
+
+================================================================================
+РУССКИЙ
+================================================================================
+
+1. ЧТО ПОКРЫВАЕТ ЭТА ЛИЦЕНЗИЯ
+
+   Эта лицензия распространяется на программы и материалы проекта Warfare,
+   созданные правообладателем, включая:
+
+   - моды warfaremapskits, warfaredecor, sadecor — исходный код, скомпилированные
+     классы, текстуры, модели, звуки, языковые файлы, конфигурации;
+   - лаунчер Warfare и его исходный код;
+   - сайт проекта, манифест сборки и инструменты публикации;
+   - состав и настройки сборки (список модов, конфиги, пресеты карт, киты,
+     магазин, озвучка) — как самостоятельный результат работы.
+
+2. ЧТО РАЗРЕШЕНО
+
+   - Скачать и запускать клиент, чтобы играть на серверах правообладателя.
+   - Держать личную резервную копию скачанного.
+   - Говорить о проекте, показывать его в видео и на стримах, ссылаться на него.
+
+3. ЧТО ЗАПРЕЩЕНО БЕЗ ПИСЬМЕННОГО РАЗРЕШЕНИЯ ПРАВООБЛАДАТЕЛЯ
+
+   - Распространять, перезаливать, зеркалировать, продавать или включать в другие
+     сборки любые файлы из пункта 1 — целиком или частями.
+   - Публиковать их где-либо (Modrinth, CurseForge, GitHub, файлообменники,
+     форумы, Telegram-каналы и так далее).
+   - Использовать код или его части, ресурсы, тексты и настройки в другом проекте.
+   - Декомпилировать, деобфусцировать или иначе разбирать программы с целью
+     повторного использования, переноса, создания производной работы или обхода
+     этой лицензии.
+   - Убирать или менять указания на автора, лицензию и отпечаток сборки.
+   - Поднимать на этом программном обеспечении публичный сервер.
+
+4. ДЕКОМПИЛЯЦИЯ — НЕ РАЗРЕШЕНИЕ
+
+   Java по своей природе позволяет прочитать байт-код. Техническая возможность
+   это сделать НЕ даёт никаких прав на код и не является разрешением на его
+   использование. Полученный таким образом исходник остаётся произведением
+   правообладателя.
+
+5. ОТСУТСТВИЕ ГАРАНТИЙ
+
+   Программы предоставляются «как есть», без каких-либо гарантий. Правообладатель
+   не отвечает за ущерб, возникший при их использовании.
+
+6. ЧЕМ ПОДТВЕРЖДАЕТСЯ АВТОРСТВО
+
+   В каждой сборке мода лежит отпечаток:
+
+   - META-INF/warfare-build.properties — проект, автор, лицензия и постоянный
+     идентификатор линии сборок;
+   - META-INF/LICENSE.txt — полный текст этой лицензии;
+   - META-INF/neoforge.mods.toml — поля authors и license.
+
+   Этих файлов достаточно, чтобы показать: найденная у кого-то сборка — твоя.
+   Если отпечаток вырезан, сам факт его отсутствия при совпадающем коде тоже
+   является доводом.
+
+7. ТРЕТЬИ СТОРОНЫ
+
+   Эта лицензия НЕ распространяется на чужие работы, которыми проект пользуется:
+   NeoForge и его MDK (скрипты сборки, шаблоны), Minecraft, библиотеки и моды
+   других авторов (superbwarfare, TACZ, Curios, GeckoLib и прочие), а также
+   сторонние ресурсы. У них свои лицензии, и они продолжают действовать.
+   Файл TEMPLATE_LICENSE.txt из комплекта NeoForge MDK — шаблон, который MDK
+   предлагает заменить своим; он заменён этим файлом и к проекту не относится.
+
+
+================================================================================
+ENGLISH
+================================================================================
+
+1. SCOPE
+
+   This licence covers the software and materials of the Warfare project made by
+   the rights holder: the warfaremapskits, warfaredecor and sadecor mods (source,
+   compiled classes, textures, models, sounds, language files, configuration), the
+   Warfare launcher and its source, the project site, the pack manifest and the
+   publishing tools, and the composition of the modpack itself (mod list, configs,
+   map presets, kits, shop, voice lines) as a work in its own right.
+
+2. PERMITTED
+
+   - Downloading and running the client to play on the rights holder's servers.
+   - Keeping a private backup of what you downloaded.
+   - Talking about the project, showing it in videos or streams, linking to it.
+
+3. NOT PERMITTED WITHOUT WRITTEN PERMISSION
+
+   - Redistributing, re-uploading, mirroring, selling, or bundling any of the files
+     in section 1, in whole or in part.
+   - Publishing them anywhere (Modrinth, CurseForge, GitHub, file hosts, forums,
+     chat channels, and so on).
+   - Using the code or any part of it, the assets, the texts or the configuration in
+     another project.
+   - Decompiling, deobfuscating or otherwise taking the software apart in order to
+     reuse it, port it, make a derivative work, or work around this licence.
+   - Removing or altering the authorship, licence or build-fingerprint notices.
+   - Running a public server on this software.
+
+4. DECOMPILATION IS NOT A LICENCE
+
+   Java always allows the bytecode to be read. Being technically able to do so
+   grants no rights to the code and is not permission to use it. Source recovered
+   that way remains the rights holder's work.
+
+5. NO WARRANTY
+
+   The software is provided "as is", without warranty of any kind. The rights holder
+   is not liable for any damage arising from its use.
+
+6. PROOF OF AUTHORSHIP
+
+   Every build of the mod carries META-INF/warfare-build.properties (project,
+   author, licence and a permanent build-line id), META-INF/LICENSE.txt (this text)
+   and the authors/license fields in META-INF/neoforge.mods.toml. A copy found
+   elsewhere with those files is demonstrably this project's; a copy with the
+   fingerprint stripped but the same code is itself evidence.
+
+7. THIRD PARTIES
+
+   This licence does not cover other people's work the project builds on: NeoForge
+   and its MDK (build scripts, templates), Minecraft, libraries and mods by other
+   authors (superbwarfare, TACZ, Curios, GeckoLib and others) or third-party assets.
+   Their own licences apply and continue to apply. The TEMPLATE_LICENSE.txt shipped
+   with the NeoForge MDK is a placeholder the MDK asks you to replace; it has been
+   replaced by this file and does not apply to this project.
