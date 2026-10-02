@@ -1,0 +1,36 @@
+# Caddy config for hosting the site from this PC on the real domain, with automatic HTTPS.
+#
+# Start:  powershell -ExecutionPolicy Bypass -File tools\serve-domain.ps1
+# Needs:  the domain's A record pointing at this PC's public IP, and ports 80 + 443 forwarded to it.
+#
+# Until the domain is bought, tools\serve-site.ps1 (localhost, no certificate) is enough.
+
+{
+	# Let's Encrypt writes to this address if a certificate is about to expire.
+	email admin@warfarecraft.ru
+}
+
+warfarecraft.ru, www.warfarecraft.ru {
+	root * C:\Mods\warfarehub\docs
+	file_server
+	encode zstd gzip
+
+	# the launcher and the pack manifest are the only things that must never be cached stale
+	@nocache path /version.json /pack/*
+	header @nocache Cache-Control "no-store"
+	header /img/* Cache-Control "public, max-age=604800"
+	header /*.css Cache-Control "public, max-age=3600"
+	header /*.js Cache-Control "public, max-age=3600"
+
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+	}
+
+	log {
+		output file C:\Mods\warfarehub\caddy-access.log {
+			roll_size 10MB
+			roll_keep 3
+		}
+	}
+}
