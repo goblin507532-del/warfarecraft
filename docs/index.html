@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Warfare Maps &amp; Kits — военные карты для Minecraft</title>
+<meta name="description" content="Мод и сборка Minecraft 1.21.1 NeoForge: военные карты, киты, режимы боя, командир с приказами, 3D-карта местности, выносливость. Лаунчер ставит сборку и держит её в актуальном виде.">
+<meta property="og:title" content="Warfare Maps &amp; Kits">
+<meta property="og:description" content="Военные карты, киты, командир с приказами и 3D-карта местности. Сборка ставится одной кнопкой.">
+<meta property="og:image" content="https://warfarecraft.ru/img/hero.jpg">
+<meta property="og:url" content="https://warfarecraft.ru/">
+<link rel="canonical" href="https://warfarecraft.ru/">
+<link rel="icon" href="img/favicon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="bar">
+  <a class="brand" href="#top">
+    <span class="brand-mark"></span>
+    <span class="brand-text">WARFARE<small>maps &amp; kits</small></span>
+  </a>
+  <nav>
+    <a href="#about">Что это</a>
+    <a href="#start">Как начать</a>
+    <a href="#shots">Скрины</a>
+    <a href="#status">Сборы</a>
+    <a href="#updates">Обновления</a>
+    <a href="#donate">Поддержать</a>
+  </nav>
+  <span class="ver" id="ver-badge">сборка …</span>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-bg" style="background-image:url('img/hero.jpg')"></div>
+    <div class="hero-inner">
+      <p class="eyebrow" id="t-eyebrow">Minecraft 1.21.1 · NeoForge · выделенный сервер</p>
+      <h1 id="t-title">Военные карты,<br>киты и настоящий командир</h1>
+      <p class="lead" id="t-lead">Раунды с фазами и стройкой, экономика и магазин, арта по метке на карте, территории,
+        3D-модель местности для разбора боя и командир, который раздаёт приказы и маршруты.</p>
+      <div class="cta">
+        <a class="btn primary" href="#start" id="dl-exe">Скачать лаунчер</a>
+        <a class="btn" href="#start" id="dl-jar">Только джарка мода</a>
+      </div>
+      <div class="ip">
+        <span class="ip-label">Сервер</span>
+        <code id="ip">26.133.174.202:12345</code>
+        <button class="btn small" id="ip-copy" type="button">Скопировать</button>
+      </div>
+    </div>
+    <div class="tape" aria-hidden="true"></div>
+  </section>
+
+  <section id="about" class="wrap">
+    <h2 class="sect">Что это такое</h2>
+    <p class="sect-sub" id="t-about">Один мод на сервере и клиентах: карта размечается владельцем, дальше всё крутится само.</p>
+    <div class="grid" id="about-grid">
+      <article class="card">
+        <h3>Карты и раунды</h3>
+        <p>Границы арены, лобби, спавны команд, точки захвата. Фазы раунда: лобби → отсчёт → стройка → бой → итог.
+          После раунда карта сама возвращается в исходное состояние.</p>
+      </article>
+      <article class="card">
+        <h3>Киты и снаряжение</h3>
+        <p>Наборы с оружием, бронёй, атрибутами (здоровье, скорость, голод, регенерация), отдельные киты командира и
+          строителя, ограничения по командам и технике.</p>
+      </article>
+      <article class="card">
+        <h3>Режимы боя</h3>
+        <p>Точки, захват флага, обороны, дроны, каждый сам за себя, эвакуация, территории. Всё с настройками очков,
+          лимитов и времени.</p>
+      </article>
+      <article class="card">
+        <h3>Командир и приказы</h3>
+        <p>Планшет: состав, живой инвентарь бойца, цвет отряда, личный приказ и маршрут на карте. Приказ всей команде
+          одной кнопкой, шаблоны фраз для скорости.</p>
+      </article>
+      <article class="card">
+        <h3>3D-карта местности</h3>
+        <p>Выделяешь участок и смотришь его как объёмную модель: свободное вращение и наклон, дома, окопы и воронки.
+          Метку можно поставить на крышу или конкретный этаж — по высоте.</p>
+      </article>
+      <article class="card">
+        <h3>Выносливость</h3>
+        <p>Бег, прыжки и копка тратят силы, стояние возвращает. Десять блоков киркой — и ты выдохся; на нуле бег
+          блокируется, а копать становится тяжело.</p>
+      </article>
+      <article class="card">
+        <h3>Атмосфера</h3>
+        <p>Погода и время суток на раунд, серый тон, туман, случайные звуки боя вокруг. Плюс личная пост-обработка
+          у каждого игрока: зерно, виньетка, оттенок — на свой вкус.</p>
+      </article>
+      <article class="card">
+        <h3>Пресеты карт</h3>
+        <p>Настроил карту — сохранил пресетом. Настройки, границы, спавны, точки, мины, магазин и отрисованная карта
+          переключаются двумя кликами.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="start" class="wrap">
+    <h2 class="sect">Как начать</h2>
+    <p class="sect-sub" id="t-start">Лаунчер сам ставит Java, Minecraft, NeoForge и сборку в свою папку. Больше ничего не нужно.</p>
+    <ol class="steps">
+      <li>
+        <span class="step-n">01</span>
+        <h3>Скачай лаунчер</h3>
+        <p>Распакуй архив куда угодно и запусти <code>WarfareLauncher.exe</code>. Ни Java, ни Minecraft заранее не нужны — он
+          скачает всё сам.</p>
+        <a class="btn primary" id="dl-exe2" href="#">WarfareLauncher-win.zip</a>
+      </li>
+      <li>
+        <span class="step-n">02</span>
+        <h3>Нажми «Играть»</h3>
+        <p>Он поставит Java 21, клиент 1.21.1, NeoForge и сборку в свою папку, проверит файлы по хешам и запустит игру.
+          Другие твои лаунчеры и сборки он не трогает.</p>
+        <a class="btn" id="dl-jar2" href="#">Или скачать джарку мода</a>
+      </li>
+      <li>
+        <span class="step-n">03</span>
+        <h3>Заходи на сервер</h3>
+        <p>Адрес уже прописан в сборке. Дальше: <kbd>Shift</kbd> — меню, <kbd>K</kbd> — киты,
+          <kbd>M</kbd> — тактическая карта, <kbd>B</kbd> — магазин, <kbd>СКМ</kbd> — пинг.</p>
+        <button class="btn small" id="ip-copy2" type="button">Скопировать IP</button>
+      </li>
+    </ol>
+  </section>
+
+  <section id="shots" class="wrap">
+    <h2 class="sect">Скрины</h2>
+    <p class="sect-sub" id="t-shots">Кадры с сервера. Клик — во весь экран.</p>
+    <div class="shots" id="shots-grid"></div>
+  </section>
+
+  <section id="status" class="wrap">
+    <h2 class="sect">Сборы и планы</h2>
+    <p class="sect-sub">Цифры я обновляю руками после переводов: у СБП на номер телефона нет автоматики, которая
+      сама считала бы поступления. <span id="fund-updated" class="muted"></span></p>
+    <div class="stats">
+      <article class="stat">
+        <p class="stat-label">Собрано</p>
+        <p class="stat-value" id="fund-raised">—</p>
+        <div class="meter"><span id="fund-bar" style="width:0"></span></div>
+        <p class="stat-note" id="fund-note"></p>
+        <a class="btn small" href="#donate">Пополнить шкалу</a>
+      </article>
+      <article class="stat">
+        <p class="stat-label">До нового патча</p>
+        <p class="stat-value" id="patch-pct">—</p>
+        <div class="meter"><span id="patch-bar" style="width:0"></span></div>
+        <p class="stat-note" id="patch-note"></p>
+        <a class="btn small" href="#updates">Что будет в патче</a>
+      </article>
+      <article class="stat">
+        <p class="stat-label">Хостинг оплачен</p>
+        <p class="stat-value" id="host-left">—</p>
+        <div class="meter"><span id="host-bar" style="width:0"></span></div>
+        <p class="stat-note" id="host-note"></p>
+        <a class="btn small" href="#donate">Продлить сервер</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="updates" class="wrap">
+    <h2 class="sect">Обновления</h2>
+    <p class="sect-sub" id="t-updates">Сборка обновляется с админской версии лаунчера — у игроков она подтягивается сама.</p>
+    <div class="panel" id="updates-box">
+      <p class="muted">Загружаю список…</p>
+    </div>
+  </section>
+
+  <section id="donate" class="wrap">
+    <h2 class="sect">Поддержать</h2>
+    <p class="sect-sub" id="t-donate">Деньги идут на сервер и на время, которое уходит в мод. Ничего из этого не даёт преимущества в бою.</p>
+
+    <div class="pay">
+      <div class="pay-main">
+        <p class="pay-label">Перевод по СБП, любой банк</p>
+        <div class="pay-number">
+          <code id="pay-phone">+7 999 892 96 04</code>
+          <button class="btn small" id="pay-copy" type="button">Скопировать</button>
+        </div>
+        <p class="pay-name" id="pay-name" hidden></p>
+        <ol class="pay-steps">
+          <li>Открой приложение своего банка → «Перевести по номеру телефона».</li>
+          <li>Вставь номер, выбери СБП, укажи сумму.</li>
+          <li>В сообщении можно написать свой ник — так я пойму, от кого перевод.</li>
+        </ol>
+        <a class="btn primary" id="pay-link" href="#" hidden>Открыть в приложении банка</a>
+      </div>
+
+      <figure class="pay-qr">
+        <img src="img/pay-qr.svg" alt="QR-код для перевода по СБП" width="220" height="220">
+        <figcaption>Сканируй камерой банковского приложения. Если банк не Сбер — просто скопируй номер слева,
+          СБП работает из любого банка.</figcaption>
+      </figure>
+    </div>
+
+    <div class="grid donate" id="donate-extra">
+      <a class="card link" id="donate-1" href="#" hidden>
+        <h3>Boosty</h3>
+        <p>Разовая или ежемесячная поддержка, с историей платежей.</p>
+        <span class="go">Открыть →</span>
+      </a>
+      <a class="card link" id="donate-2" href="#" hidden>
+        <h3>DonationAlerts</h3>
+        <p>Перевод картой или кошельком, тоже с СБП.</p>
+        <span class="go">Открыть →</span>
+      </a>
+      <a class="card link" id="donate-3" href="#" hidden>
+        <h3>Ещё способ</h3>
+        <p>Если удобнее иначе — здесь будут реквизиты.</p>
+        <span class="go">Открыть →</span>
+      </a>
+    </div>
+
+    <p class="fineprint" id="t-fine">Это добровольный перевод физическому лицу, а не оплата товара или услуги. Донат не покупает
+      киты, технику и кредиты: баланс общий для всех. Возврат — по запросу в Telegram.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <strong>Warfare Maps &amp; Kits</strong>
+      <p class="muted">Мод для NeoForge 1.21.1. Чужие моды в сборке остаются за их авторами и качаются с официальных
+        страниц.</p>
+    </div>
+    <div class="foot-links">
+      <a id="gh-link" href="#">GitHub</a>
+      <a id="dc-link" href="#">Discord</a>
+      <a id="tg-link" href="#">Telegram</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden><img alt="скрин" id="lightbox-img"></div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
