@@ -1,0 +1,12 @@
+{
+  "currency": "₽",
+  "raised": 0,
+  "goal": 3000,
+  "goalNote": "цель месяца: хостинг и домен",
+  "patchPercent": 70,
+  "patchDate": "2026-10-05",
+  "patchNote": "если шкала добьётся раньше — сяду за него почти сразу",
+  "hostPaidUntil": "2026-10-13",
+  "hostPeriodDays": 30,
+  "updated": "2026-09-25"
+}
