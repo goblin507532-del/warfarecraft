@@ -11,7 +11,9 @@
 # Run:  powershell -ExecutionPolicy Bypass -File tools\make-pack.ps1
 param(
   [string]$Instance = 'C:\Users\gobli\AppData\Roaming\ElyPrismLauncher\instances\1.21.1(2)\minecraft',
-  [string[]]$Roots = @('mods', 'config', 'defaultconfigs', 'resourcepacks', 'shaderpacks'),
+  # tacz\maxstuff is a TACZ gun pack the owner added by hand - it sits in the instance, not inside any mod jar, so
+  # without it players get nothing of that pack. The other folders under tacz\ ship inside their own mods.
+  [string[]]$Roots = @('mods', 'config', 'defaultconfigs', 'resourcepacks', 'shaderpacks', 'tacz\maxstuff'),
   [string]$Notes = 'Build from the owner PC.',
   [string]$Server = '26.133.174.202:12345'
 )
