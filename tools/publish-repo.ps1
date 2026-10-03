@@ -57,14 +57,19 @@ if (-not $exists) {
 # The owner's manual stays off the public repo: it is written for him, not for players - his home IP, the admin
 # workflow, where the token lives, how the donations are set up. STATUS.md is the same kind of file.
 #
-# The launcher sources stay off it too (his call, 2026-10-02: "сурсы удали чтобы игроки качали ток exe"). Players
-# need the exe, which is a release asset and is published either way - the repo tree does not have to carry the
-# code. The LICENSE still goes up, so the terms are public even though the source is not.
+# The launcher sources stay off it too (his call, 2026-10-02): players need the exe, which is a release asset and is
+# published either way, so the repo tree does not have to carry the code. The LICENSE still goes up, so the terms
+# are public even though the source is not.
+#
+# NOTE: the manual's file name is Cyrillic, and Cyrillic inside a .ps1 is read as ANSI and turns to mojibake - a
+# literal here would never match, which is exactly how it leaked once. So the rule is ASCII only: in the repo root,
+# the ONLY markdown that goes public is README.md. Anything else there is the owner's own notes.
 $skip = @('\build\', '\.git\', 'settings.json', '\out\', '\docs\local\', '\docs\pack\', 'admin.html', 'admin.js',
-          '.mrpack', 'caddy-access.log', 'ИНСТРУКЦИЯ.md', 'STATUS.md', 'token.txt', '\launcher\')
+          '.mrpack', 'caddy-access.log', 'STATUS.md', 'token.txt', '\launcher\')
 $files = Get-ChildItem $root -Recurse -File | Where-Object {
   $p = $_.FullName
-  -not ($skip | Where-Object { $p -like "*$_*" })
+  $rootMarkdown = ($_.DirectoryName -eq $root) -and ($_.Extension -eq '.md') -and ($_.Name -ne 'README.md')
+  (-not $rootMarkdown) -and -not ($skip | Where-Object { $p -like "*$_*" })
 }
 Write-Host "uploading $($files.Count) files"
 foreach ($f in $files) {
