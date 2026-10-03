@@ -132,11 +132,28 @@ foreach ($path in $assets) {
     }
   }
   Write-Host "uploading asset $name ..."
-  $uploadHeaders = $headers.Clone()
-  Invoke-RestMethod -Method POST -Headers $uploadHeaders -ContentType 'application/octet-stream' `
-    -Uri "https://uploads.github.com/repos/$owner/$repo/releases/$($release.id)/assets?name=$name" `
-    -InFile $path | Out-Null
-  Write-Host "  + $name"
+  # A 50 MB upload meets a dropped connection often enough to matter - it has cost two runs already. Each attempt
+  # clears whatever half-asset the last one left, or GitHub answers 422 for a duplicate instead of accepting it.
+  $uploaded = $false
+  for ($attempt = 1; $attempt -le 3; $attempt++) {
+    try {
+      $uploadHeaders = $headers.Clone()
+      Invoke-RestMethod -Method POST -Headers $uploadHeaders -ContentType 'application/octet-stream' `
+        -Uri "https://uploads.github.com/repos/$owner/$repo/releases/$($release.id)/assets?name=$name" `
+        -InFile $path | Out-Null
+      $uploaded = $true
+      break
+    } catch {
+      Write-Host "  attempt $attempt failed: $($_.Exception.Message)"
+      try {
+        foreach ($stale in (Api GET "$api/repos/$owner/$repo/releases/$($release.id)/assets?per_page=100" $null)) {
+          if ($stale.name -eq $name) { Api DELETE "$api/repos/$owner/$repo/releases/assets/$($stale.id)" $null | Out-Null }
+        }
+      } catch { }
+      if ($attempt -lt 3) { Start-Sleep -Seconds (5 * $attempt) }
+    }
+  }
+  if ($uploaded) { Write-Host "  + $name" } else { Write-Host "  ! $name did not upload" }
 }
 
 Write-Host ''
