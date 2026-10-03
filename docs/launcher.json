@@ -1,5 +1,5 @@
 {
   "version": 8,
-  "url": "https://github.com/goblin507532-del/warfarecraft/releases/latest/download/WarfareLauncher.jar",
-  "notes": "Новая версия лаунчера."
+  "notes": "Новый вид: слева панель с сервером, лампами, хостингом и аккаунтом, внизу широкая кнопка «играть» с полосой загрузки и патчноуты с прокруткой. Вход в аккаунт переехал в настройки — туда же, где цвет, фон, яркость и размер интерфейса.",
+  "url": "https://github.com/goblin507532-del/warfarecraft/releases/latest/download/WarfareLauncher.jar"
 }
