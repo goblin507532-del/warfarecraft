@@ -1,11 +1,11 @@
 {
     "name":  "Warfare Maps and Kits",
-    "version":  "2026.10.02-2307",
+    "version":  "2026.10.04-1141",
     "mcVersion":  "1.21.1",
     "loader":  "NeoForge",
     "loaderVersion":  "21.1.250",
     "serverAddress":  "26.133.174.202:12345",
-    "notes":  "Сборка раздаётся с моего ПК. Пока сервер включён — лаунчер сам догонит последнюю версию.",
+    "notes":  "Обновление 1.10.0: вход по паролю, голосование за карту после раунда, новый таб со званиями и TPS. При первом заходе придумай пароль — он закрепит ник за тобой.",
     "files":  [
                   {
                       "path":  "mods/ammocrate-1.0.0.jar",
@@ -188,10 +188,10 @@
                       "size":  65349300
                   },
                   {
-                      "path":  "mods/warfaremapskits-1.8.1.jar",
-                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/cbf57be1ec7d5f28e5c62204618c7056a640c5ee5782f7ac631bbb49e89c4b07.bin",
-                      "sha256":  "cbf57be1ec7d5f28e5c62204618c7056a640c5ee5782f7ac631bbb49e89c4b07",
-                      "size":  1416902
+                      "path":  "mods/warfaremapskits-1.10.0.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack-3/3d8501e8ad1d2817a873e9fb244193e5efa3c1fdff5d9200990caee59db45b9a.bin",
+                      "sha256":  "3d8501e8ad1d2817a873e9fb244193e5efa3c1fdff5d9200990caee59db45b9a",
+                      "size":  1490596
                   },
                   {
                       "path":  "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
@@ -327,8 +327,8 @@
                   },
                   {
                       "path":  "config/iris.properties",
-                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/ecb156924c738983d4522d90bb9723d84bfe040f11e59c3dd58085fb8d6d38a4.bin",
-                      "sha256":  "ecb156924c738983d4522d90bb9723d84bfe040f11e59c3dd58085fb8d6d38a4",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack-3/6ee29e7d7a480a82b4895dba76d53127d07b9d88b5cfe03f284b4111b1364c05.bin",
+                      "sha256":  "6ee29e7d7a480a82b4895dba76d53127d07b9d88b5cfe03f284b4111b1364c05",
                       "size":  320
                   },
                   {
@@ -633,8 +633,8 @@
                   },
                   {
                       "path":  "config/fabric/indigo-renderer.properties",
-                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/481af3edefc96f36c3d74114dd47dfe6be78e0e3bad9ef2331c756e2101bb4af.bin",
-                      "sha256":  "481af3edefc96f36c3d74114dd47dfe6be78e0e3bad9ef2331c756e2101bb4af",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack-3/d37133367d1bba8ff9030e5b9d2c5cbad40a3bc691f6f288da5e57312f2d0c1d.bin",
+                      "sha256":  "d37133367d1bba8ff9030e5b9d2c5cbad40a3bc691f6f288da5e57312f2d0c1d",
                       "size":  290
                   },
                   {
