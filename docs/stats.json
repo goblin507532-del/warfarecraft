@@ -1,5 +1,114 @@
 {
-  "updated": "2026-10-04 12:28",
-  "players": 0,
-  "top": []
+  "updated": "2026-10-04 12:57",
+  "players": 12,
+  "top": [
+    {
+      "name": "tochno_ne_admin",
+      "rank": "",
+      "kills": 35,
+      "deaths": 48,
+      "captures": 10,
+      "rounds": 27,
+      "wins": 15
+    },
+    {
+      "name": "47828733",
+      "rank": "",
+      "kills": 13,
+      "deaths": 10,
+      "captures": 6,
+      "rounds": 14,
+      "wins": 9
+    },
+    {
+      "name": "0b9bfaa2",
+      "rank": "",
+      "kills": 12,
+      "deaths": 18,
+      "captures": 14,
+      "rounds": 10,
+      "wins": 7
+    },
+    {
+      "name": "c875e8bf",
+      "rank": "",
+      "kills": 8,
+      "deaths": 16,
+      "captures": 6,
+      "rounds": 6,
+      "wins": 2
+    },
+    {
+      "name": "328c33e2",
+      "rank": "",
+      "kills": 6,
+      "deaths": 5,
+      "captures": 1,
+      "rounds": 2,
+      "wins": 1
+    },
+    {
+      "name": "2ed16655",
+      "rank": "",
+      "kills": 5,
+      "deaths": 22,
+      "captures": 5,
+      "rounds": 17,
+      "wins": 7
+    },
+    {
+      "name": "813d3171",
+      "rank": "",
+      "kills": 5,
+      "deaths": 13,
+      "captures": 3,
+      "rounds": 15,
+      "wins": 8
+    },
+    {
+      "name": "bee7bbf4",
+      "rank": "",
+      "kills": 5,
+      "deaths": 21,
+      "captures": 7,
+      "rounds": 7,
+      "wins": 2
+    },
+    {
+      "name": "771e1929",
+      "rank": "",
+      "kills": 4,
+      "deaths": 11,
+      "captures": 3,
+      "rounds": 7,
+      "wins": 1
+    },
+    {
+      "name": "18687342",
+      "rank": "",
+      "kills": 3,
+      "deaths": 6,
+      "captures": 0,
+      "rounds": 9,
+      "wins": 5
+    },
+    {
+      "name": "b03a413c",
+      "rank": "БЛАТНОЙ",
+      "kills": 3,
+      "deaths": 8,
+      "captures": 2,
+      "rounds": 4,
+      "wins": 1
+    },
+    {
+      "name": "c3043674",
+      "rank": "",
+      "kills": 0,
+      "deaths": 3,
+      "captures": 0,
+      "rounds": 1,
+      "wins": 0
+    }
+  ]
 }
