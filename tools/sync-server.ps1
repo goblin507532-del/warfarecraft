@@ -28,6 +28,11 @@ if ($running) {
 $clientOnly = @('DistantHorizons', 'dynamic-fps', 'fancymenu', 'iris-neoforge', 'sodium-neoforge',
                 'melody_', 'konkrete_', 'offlineskins', 'yet_another_config_lib')
 
+# The other way round: mods that live on the SERVER ONLY and are deliberately not in the players' pack.
+# Without this list the sweep below - "anything not in the pack has to go" - would delete LuckPerms on the
+# first sync and take every rank with it. Ranks are server business; a client has no use for the mod.
+$serverOnly = @('LuckPerms')
+
 Write-Host 'mods...'
 $copied = 0
 $wanted = @{}
@@ -46,6 +51,9 @@ foreach ($m in Get-ChildItem "$pack\mods\*.jar") {
 # a mod that left the pack has to leave the server too, or its version lingers and nobody can log in
 $removed = 0
 foreach ($old in Get-ChildItem "$Server\mods\*.jar") {
+  $keep = $false
+  foreach ($k in $serverOnly) { if ($old.Name -like "*$k*") { $keep = $true } }
+  if ($keep) { continue }
   if (-not $wanted.ContainsKey($old.Name)) {
     Remove-Item $old.FullName -Force
     Write-Host "  - $($old.Name)"
