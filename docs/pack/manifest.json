@@ -1,6 +1,6 @@
 {
     "name":  "Warfare Maps and Kits",
-    "version":  "2026.10.04-1259",
+    "version":  "2026.10.04-1718",
     "mcVersion":  "1.21.1",
     "loader":  "NeoForge",
     "loaderVersion":  "21.1.250",
@@ -188,10 +188,10 @@
                       "size":  65349300
                   },
                   {
-                      "path":  "mods/warfaremapskits-1.10.1.jar",
-                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack-3/5ff081091cf402602aa87722ef72d305db3a9e381aba7228e68e9b20e3e41b09.bin",
-                      "sha256":  "5ff081091cf402602aa87722ef72d305db3a9e381aba7228e68e9b20e3e41b09",
-                      "size":  1501820
+                      "path":  "mods/warfaremapskits-1.10.2.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack-3/46ee59df6c8bd13faa5c6cb7985aa9e5e205cc107b6e69bd06dfe09535090cb3.bin",
+                      "sha256":  "46ee59df6c8bd13faa5c6cb7985aa9e5e205cc107b6e69bd06dfe09535090cb3",
+                      "size":  1502979
                   },
                   {
                       "path":  "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
