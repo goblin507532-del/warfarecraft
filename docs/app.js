@@ -123,7 +123,17 @@
     if (b) b.addEventListener("click", function () { copyIp(b); });
   });
 
-  // ---- screenshots: shot-1..shot-12, however many are actually there
+  // ---- screenshots: shot-1..shot-12, however many are actually there.
+  // Each gets a caption: a grid of dark night-fight stills says nothing on its own, and the point of this
+  // section is to show what the server actually has. A shot with no caption still works, it just gets none.
+  var SHOT_CAPTIONS = [
+    "Бой за точку: счёт сторон, таймер раунда и лента убийств",
+    "Прицел: дальность до цели, остаток магазина и захват точки А",
+    "Ночной бой — своё оружие, свои кредиты за удержание",
+    "Редактор китов: любой набор снаряжения собирается прямо в игре",
+    "Тактическая карта: точки, стороны и приказы командира",
+    "Снаряжение перед выходом: киты командира и обычные"
+  ];
   var grid = document.getElementById("shots-grid");
   var box = document.getElementById("lightbox");
   var boxImg = document.getElementById("lightbox-img");
@@ -131,17 +141,27 @@
     for (var i = 1; i <= 12; i++) {
       (function (n) {
         var url = "img/shot-" + n + ".jpg";
+        var caption = SHOT_CAPTIONS[n - 1] || "";
         var probe = new Image();
         probe.onload = function () {
+          var figure = document.createElement("figure");
           var img = document.createElement("img");
           img.src = url;
-          img.alt = "Скрин " + n;
+          img.alt = caption || "Скрин " + n;
           img.loading = "lazy";
           img.addEventListener("click", function () {
             boxImg.src = url;
             box.hidden = false;
           });
-          grid.appendChild(img);
+          figure.appendChild(img);
+          if (caption) {
+            var cap = document.createElement("figcaption");
+            cap.textContent = caption;
+            figure.appendChild(cap);
+          }
+          // the probes finish in whatever order the network answers, so put each one where it belongs
+          figure.style.order = String(n);
+          grid.appendChild(figure);
         };
         probe.src = url;
       })(i);
