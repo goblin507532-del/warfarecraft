@@ -11,11 +11,23 @@ $cfg = Get-Content $store -Raw | ConvertFrom-Json
 $owner = $cfg.ghUser
 $repo = $cfg.ghRepo
 
+# Where the token comes from, in order. The file is the one the launcher already keeps, so a publish started from
+# anywhere - a shortcut, a scheduled task, another program - finds it without being asked.
+#
+# It used to go straight to Read-Host when GH_TOKEN was unset. Run from anywhere without a console to type into,
+# that prompt simply waits for ever: the publish looked like it had hung, and nothing had been uploaded at all.
+# So the prompt is now the last resort and only when there is genuinely somebody there to answer it.
+$tokenFile = Join-Path $env:APPDATA 'WarfareLauncher\token.txt'
 if ($env:GH_TOKEN) {
   $token = $env:GH_TOKEN
-} else {
+} elseif (Test-Path $tokenFile) {
+  $token = ([IO.File]::ReadAllText($tokenFile)).Trim()
+  Write-Host "token: $tokenFile"
+} elseif ([Environment]::UserInteractive -and -not [Console]::IsInputRedirected) {
   $secure = Read-Host 'GitHub token (not echoed, not stored)' -AsSecureString
   $token = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($secure))
+} else {
+  throw "No token: set GH_TOKEN or put the PAT in $tokenFile"
 }
 if ([string]::IsNullOrWhiteSpace($token)) { throw 'Token is required' }
 
@@ -26,6 +38,23 @@ $headers = @{
   'User-Agent' = 'warfare-publish'
 }
 $api = 'https://api.github.com'
+
+# The sha GitHub reports for a file is a git blob hash: sha1 over "blob <bytes>\0" and then the content. Computing
+# it locally is what lets an unchanged file be skipped instead of re-uploaded, which is most of what made a publish
+# slow - every file in docs\ went up on every run whether or not a byte of it had changed.
+function Get-GitBlobSha($path) {
+  $bytes = [IO.File]::ReadAllBytes($path)
+  $header = [Text.Encoding]::ASCII.GetBytes("blob $($bytes.Length)`0")
+  $all = New-Object byte[] ($header.Length + $bytes.Length)
+  [Array]::Copy($header, 0, $all, 0, $header.Length)
+  [Array]::Copy($bytes, 0, $all, $header.Length, $bytes.Length)
+  $sha1 = [Security.Cryptography.SHA1]::Create()
+  try {
+    return (($sha1.ComputeHash($all) | ForEach-Object { $_.ToString('x2') }) -join '')
+  } finally {
+    $sha1.Dispose()
+  }
+}
 
 function Api($method, $url, $body) {
   $args = @{ Method = $method; Uri = $url; Headers = $headers }
@@ -72,11 +101,16 @@ $files = Get-ChildItem $root -Recurse -File | Where-Object {
   (-not $rootMarkdown) -and -not ($skip | Where-Object { $p -like "*$_*" })
 }
 Write-Host "uploading $($files.Count) files"
+$same = 0
 foreach ($f in $files) {
   $rel = $f.FullName.Substring($root.Length + 1).Replace('\', '/')
-  $content = [Convert]::ToBase64String([IO.File]::ReadAllBytes($f.FullName))
   $sha = $null
   try { $sha = (Api GET "$api/repos/$owner/$repo/contents/$rel`?ref=main" $null).sha } catch { $sha = $null }
+  if ($sha -and $sha -eq (Get-GitBlobSha $f.FullName)) {
+    $same++
+    continue
+  }
+  $content = [Convert]::ToBase64String([IO.File]::ReadAllBytes($f.FullName))
   $body = @{ message = "upload $rel"; content = $content; branch = 'main' }
   if ($sha) { $body.sha = $sha }
   try {
@@ -86,6 +120,7 @@ foreach ($f in $files) {
     Write-Host "  ! $rel : $($_.Exception.Message)"
   }
 }
+if ($same -gt 0) { Write-Host "  = $same unchanged, not re-uploaded" }
 
 # ---- GitHub Pages from /docs
 try {
@@ -126,6 +161,15 @@ if ($modJar) { $assets += $modJar.FullName }
 foreach ($path in $assets) {
   if (-not (Test-Path $path)) { Write-Host "skip (missing): $path"; continue }
   $name = [IO.Path]::GetFileName($path)
+  # An asset already up there at exactly this size is the one we were about to send. The launcher zip is ~50 MB and
+  # went up on every run regardless, which on a home upstream is most of the wait - and most of the time the file
+  # had not changed at all.
+  $existing = (Api GET "$api/repos/$owner/$repo/releases/$($release.id)/assets?per_page=100" $null) |
+    Where-Object { $_.name -eq $name }
+  if ($existing -and $existing.size -eq (Get-Item $path).Length) {
+    Write-Host "  = $name (already up, same size)"
+    continue
+  }
   foreach ($old in (Api GET "$api/repos/$owner/$repo/releases/$($release.id)/assets?per_page=100" $null)) {
     if ($old.name -eq $name) {
       Api DELETE "$api/repos/$owner/$repo/releases/assets/$($old.id)" $null | Out-Null
