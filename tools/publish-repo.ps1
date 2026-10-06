@@ -161,13 +161,19 @@ if ($modJar) { $assets += $modJar.FullName }
 foreach ($path in $assets) {
   if (-not (Test-Path $path)) { Write-Host "skip (missing): $path"; continue }
   $name = [IO.Path]::GetFileName($path)
-  # An asset already up there at exactly this size is the one we were about to send. The launcher zip is ~50 MB and
-  # went up on every run regardless, which on a home upstream is most of the wait - and most of the time the file
-  # had not changed at all.
+  # Skip an asset that is genuinely the same file, to save re-sending ~50 MB on every publish.
+  #
+  # Size alone is NOT evidence and nearly shipped a wrong launcher: build 14 of WarfareLauncher.jar came out at
+  # exactly the same 982439 bytes as build 13, so a size-only check skipped it, and the self-update would have
+  # handed players build 13 announced as 14 - downloaded, installed, still reporting 13, offered again, forever.
+  # A release asset carries no checksum in the API, so the second test is time: if the local file was written
+  # after the asset was uploaded, it goes up whatever its size.
+  $local = Get-Item $path
   $existing = (Api GET "$api/repos/$owner/$repo/releases/$($release.id)/assets?per_page=100" $null) |
     Where-Object { $_.name -eq $name }
-  if ($existing -and $existing.size -eq (Get-Item $path).Length) {
-    Write-Host "  = $name (already up, same size)"
+  if ($existing -and $existing.size -eq $local.Length `
+      -and $local.LastWriteTimeUtc -le ([DateTime]$existing.updated_at).ToUniversalTime()) {
+    Write-Host "  = $name (already up, same size and older than it)"
     continue
   }
   foreach ($old in (Api GET "$api/repos/$owner/$repo/releases/$($release.id)/assets?per_page=100" $null)) {
