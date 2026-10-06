@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06 19:10",
+  "updated": "2026-10-06 19:20",
   "players": 12,
   "top": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "name": "b03a413c",
-      "rank": "БЛАТНОЙ",
+      "rank": "",
       "kills": 7,
       "deaths": 25,
       "captures": 3,
