@@ -46,11 +46,19 @@ if (-not (Test-Path $curl)) { throw "curl.exe not found at $curl" }
 # a dry run is a local check of the plan: no token asked for, nothing sent anywhere
 $token = ''
 if (-not $DryRun) {
+  # Same order as publish-repo.ps1, and for the same reason: an unanswerable Read-Host looks exactly like a hung
+  # upload, and this script is the slow one, so it is the one where that mistake costs the most.
+  $tokenFile = Join-Path $env:APPDATA 'WarfareLauncher\token.txt'
   if ($env:GH_TOKEN) {
     $token = $env:GH_TOKEN
-  } else {
+  } elseif (Test-Path $tokenFile) {
+    $token = ([IO.File]::ReadAllText($tokenFile)).Trim()
+    Write-Host "token: $tokenFile"
+  } elseif ([Environment]::UserInteractive -and -not [Console]::IsInputRedirected) {
     $secure = Read-Host 'GitHub token (not echoed, not stored)' -AsSecureString
     $token = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($secure))
+  } else {
+    throw "No token: set GH_TOKEN or put the PAT in $tokenFile"
   }
   if ([string]::IsNullOrWhiteSpace($token)) { throw 'Token is required' }
 }
