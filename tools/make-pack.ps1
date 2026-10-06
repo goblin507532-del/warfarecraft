@@ -13,7 +13,10 @@ param(
   [string]$Instance = 'C:\Users\gobli\AppData\Roaming\ElyPrismLauncher\instances\1.21.1(2)\minecraft',
   # tacz\maxstuff is a TACZ gun pack the owner added by hand - it sits in the instance, not inside any mod jar, so
   # without it players get nothing of that pack. The other folders under tacz\ ship inside their own mods.
-  [string[]]$Roots = @('mods', 'config', 'defaultconfigs', 'resourcepacks', 'shaderpacks', 'tacz\maxstuff'),
+  # CustomSkinLoader keeps its settings in a folder of its own at the game root rather than under config. Without
+  # it listed here players get the mod with its default sources and never see an Ely.by or TLauncher skin.
+  [string[]]$Roots = @('mods', 'config', 'defaultconfigs', 'resourcepacks', 'shaderpacks', 'tacz\maxstuff',
+    'CustomSkinLoader'),
   [string]$Notes = 'Build from the owner PC.',
   [string]$Server = '26.133.174.202:12345'
 )
