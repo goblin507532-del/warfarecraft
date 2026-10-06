@@ -1,11 +1,11 @@
 {
     "name":  "Warfare Maps and Kits",
-    "version":  "2026.10.06-1922",
+    "version":  "2026.10.06-1946",
     "mcVersion":  "1.21.1",
     "loader":  "NeoForge",
     "loaderVersion":  "21.1.250",
     "serverAddress":  "26.133.174.202:12345",
-    "notes":  "Обновление 1.13.0: скины теперь видны у всех (лицуха, Ely.by, TLauncher), починены звуки диких и страшные шаги, аватарку в профиле можно поставить и игра говорит, что не так. Новое: «неполадки» — раз в несколько минут на 12-30 секунд пропадает карта, подсветка союзников и рации. Мешок с лутом стал объёмным. Оптимизация HUD и лаунчера.",
+    "notes":  "Обновление 1.13.2: исправлен краш игры от картинки в «приколах» — читалось через стек LWJGL на 64 КБ. Добавлен гул в ушах при контузии на всё время эффекта. Скины видны у всех (лицуха, Ely.by, TLauncher), починены звуки диких и страшные шаги, аватарку можно поставить и игра говорит, что не так. «Неполадки»: раз в несколько минут на 12-30 секунд пропадает карта, подсветка союзников и рации.",
     "files":  [
                   {
                       "path":  "mods/ammocrate-1.0.0.jar",
@@ -194,10 +194,10 @@
                       "size":  65349300
                   },
                   {
-                      "path":  "mods/warfaremapskits-1.13.1.jar",
-                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack-3/5b18dd9afd20ab9ad8a4e82e64bed0fa0d4f34a4f9dd56bdb88aead06b955ce2.bin",
-                      "sha256":  "5b18dd9afd20ab9ad8a4e82e64bed0fa0d4f34a4f9dd56bdb88aead06b955ce2",
-                      "size":  1558311
+                      "path":  "mods/warfaremapskits-1.13.2.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack-3/9d7770d2f7b09efa57b4b8a0a21846d07ac28ccfca3fd4e08313916c7092fadd.bin",
+                      "sha256":  "9d7770d2f7b09efa57b4b8a0a21846d07ac28ccfca3fd4e08313916c7092fadd",
+                      "size":  1559780
                   },
                   {
                       "path":  "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
