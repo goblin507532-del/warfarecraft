@@ -1,11 +1,11 @@
 {
     "name":  "Warfare Maps and Kits",
-    "version":  "2026.10.05-2330",
+    "version":  "2026.10.06-1922",
     "mcVersion":  "1.21.1",
     "loader":  "NeoForge",
     "loaderVersion":  "21.1.250",
     "serverAddress":  "26.133.174.202:12345",
-    "notes":  "Обновление 1.10.0: вход по паролю, голосование за карту после раунда, новый таб со званиями и TPS. При первом заходе придумай пароль — он закрепит ник за тобой.",
+    "notes":  "Обновление 1.13.0: скины теперь видны у всех (лицуха, Ely.by, TLauncher), починены звуки диких и страшные шаги, аватарку в профиле можно поставить и игра говорит, что не так. Новое: «неполадки» — раз в несколько минут на 12-30 секунд пропадает карта, подсветка союзников и рации. Мешок с лутом стал объёмным. Оптимизация HUD и лаунчера.",
     "files":  [
                   {
                       "path":  "mods/ammocrate-1.0.0.jar",
@@ -30,6 +30,12 @@
                       "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack/a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde.bin",
                       "sha256":  "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
                       "size":  410690
+                  },
+                  {
+                      "path":  "mods/CustomSkinLoader_Universal-15.1.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack-3/c8769a38b3cc1da2a7b2f5827d1a53a24cd1ef6d0784b1eb545569f5882a2ffb.bin",
+                      "sha256":  "c8769a38b3cc1da2a7b2f5827d1a53a24cd1ef6d0784b1eb545569f5882a2ffb",
+                      "size":  222917
                   },
                   {
                       "path":  "mods/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
@@ -188,10 +194,10 @@
                       "size":  65349300
                   },
                   {
-                      "path":  "mods/warfaremapskits-1.11.2.jar",
-                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack-3/1296b598fcec586d74a4962507a31c6554337bb56cab891789ed71134191692d.bin",
-                      "sha256":  "1296b598fcec586d74a4962507a31c6554337bb56cab891789ed71134191692d",
-                      "size":  1526844
+                      "path":  "mods/warfaremapskits-1.13.1.jar",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack-3/5b18dd9afd20ab9ad8a4e82e64bed0fa0d4f34a4f9dd56bdb88aead06b955ce2.bin",
+                      "sha256":  "5b18dd9afd20ab9ad8a4e82e64bed0fa0d4f34a4f9dd56bdb88aead06b955ce2",
+                      "size":  1558311
                   },
                   {
                       "path":  "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
@@ -12114,6 +12120,12 @@
                       "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack-2/0426dcc62d46274a5b3a64d79c035b750816c3e2fecf0c2073bbec4d7ee7c1e0.bin",
                       "sha256":  "0426dcc62d46274a5b3a64d79c035b750816c3e2fecf0c2073bbec4d7ee7c1e0",
                       "size":  95
+                  },
+                  {
+                      "path":  "CustomSkinLoader/CustomSkinLoader.json",
+                      "url":  "https://github.com/goblin507532-del/warfarecraft/releases/download/pack-3/2497ddb4893532cd9b5c0813a8fd8290e3fe4a6061e608b41b0cfac846c54b69.bin",
+                      "sha256":  "2497ddb4893532cd9b5c0813a8fd8290e3fe4a6061e608b41b0cfac846c54b69",
+                      "size":  1210
                   }
               ]
 }
