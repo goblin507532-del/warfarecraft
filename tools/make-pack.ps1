@@ -16,7 +16,7 @@ param(
   # CustomSkinLoader keeps its settings in a folder of its own at the game root rather than under config. Without
   # it listed here players get the mod with its default sources and never see an Ely.by or TLauncher skin.
   [string[]]$Roots = @('mods', 'config', 'defaultconfigs', 'resourcepacks', 'shaderpacks', 'tacz\maxstuff',
-    'CustomSkinLoader'),
+    'tacz\lradd_lesraisins', 'tacz\daffas_arsenal', 'tacz\fallout_gunpack', 'CustomSkinLoader'),
   [string]$Notes = 'Build from the owner PC.',
   [string]$Server = '26.133.174.202:12345'
 )
@@ -54,6 +54,8 @@ foreach ($dir in $Roots) {
     if ($skipExt -contains $f.Extension.ToLower()) { continue }
     $rel = $f.FullName.Substring($Instance.Length + 1).Replace('\', '/')
     if ($rel -like '*/cache/*' -or $rel -like '*/logs/*') { continue }
+    # stalkerzone is a separate project: 1.9 GB of levels converted from the owner's own STALKER install, not ours to hand out
+    if ($rel -like 'config/stalkerzone/*') { continue }
     $target = Join-Path $filesDir ($rel -replace '/', '\')
     New-Item -ItemType Directory -Force (Split-Path -Parent $target) | Out-Null
     # copy only what changed, so re-running this is quick
